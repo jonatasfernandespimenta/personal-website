@@ -8,10 +8,11 @@ import SubHeading from "@/components/SubHeading";
 import HighlightWord from "@/components/HighlightWord";
 import Image from "next/image";
 import { FaArrowDown } from "react-icons/fa";
+import Link from "next/link";
 
 export default function HomeSection() {
   return (
-    <>
+    <div id="home">
       <div className="absolute flex flex-1 h-screen z-0 right-0 -mr-10">
         <Image src={"/assets/home-wave.svg"} alt="wave" width="1440" height="1024" />
       </div>
@@ -30,13 +31,15 @@ export default function HomeSection() {
             </SubHeading>
           </div>
 
-          <FaArrowDown color="white" size={32} />
+          <Link href={"#aboutme"}>
+            <FaArrowDown color="white" size={32} className="animate-bounce" />
+          </Link>
         </div>
 
         <div className="flex flex-1 h-screen justify-center p-28 flex-col z-10">
           <Lottie animationData={laptopCoffeeAnimation} loop={true} />
         </div>
       </div>
-    </>
+    </div>
   );
 }

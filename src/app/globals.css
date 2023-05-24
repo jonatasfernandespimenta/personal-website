@@ -7,6 +7,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+*,
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   background: #282b30;
   font-family: "Roboto", sans-serif;

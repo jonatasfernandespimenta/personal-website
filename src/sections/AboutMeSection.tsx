@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function AboutMeSection() {
   return (
-    <>
+    <div id="aboutme">
       <div className="flex flex-row min-h-screen">
         <div className="flex justify-around flex-1 h-screen items-start p-36 flex-col">
           <div className="gap-4">
@@ -63,6 +63,6 @@ export default function AboutMeSection() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
