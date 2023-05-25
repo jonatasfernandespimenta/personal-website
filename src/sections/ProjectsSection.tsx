@@ -1,7 +1,11 @@
 "use client";
 
+import Carousel from "@/components/CardsCarousel";
 import Heading from "@/components/Heading";
+import ProjectCard from "@/components/ProjectCard";
+import { projects } from "@/utils/projects";
 import Image from "next/image";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function ProjectsSection() {
   return (
@@ -10,10 +14,12 @@ export default function ProjectsSection() {
         <Image src={"/assets/projects-wave.svg"} alt="wave" width="1440" height="1024" />
       </div>
 
-      <div className="flex flex-1 items-start p-36 flex-col">
+      <div className="flex flex-1 min-h-screen items-start p-36 flex-col z-20 justify-around">
         <div className="gap-4">
           <Heading textColor="green-400">Projects</Heading>
         </div>
+
+        <Carousel projects={projects} />
       </div>
     </div>
   );
