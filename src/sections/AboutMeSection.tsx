@@ -38,7 +38,12 @@ export default function AboutMeSection() {
         </div>
 
         <div className="flex flex-1 justify-around h-screen items-center p-36 flex-col">
-          <Image src="/assets/pfp.png" alt="pfp" width={400} height={400} />
+          <div className="liquidImg mb-28">
+            <img src="https://avatars.githubusercontent.com/u/51496759?v=4" />
+          </div>
+
+          <div className="liquid mt-10 ml-20" />
+          {/* <Image src="/assets/pfp.png" alt="pfp" width={400} height={400} /> */}
 
           <div className="flex flex-col items-center gap-5">
             <SubHeading textColor="green-400" textSize="3xl">
