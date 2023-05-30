@@ -10,23 +10,29 @@ export default function AboutMeSection() {
       <div className="flex flex-row min-h-screen">
         <div className="flex justify-around flex-1 h-screen items-start p-36 flex-col">
           <div className="gap-4">
-            <Heading textColor="green-400">About me</Heading>
+            <Heading textColor="[#72da8f]">About me</Heading>
 
-            <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet ligula quis lorem porta sodales
-              sed quis nulla. Duis in eros eu nunc porttitor dignissim in eu augue. Vivamus vehicula scelerisque mauris
-              sit amet porttitor. Ut ultricies nulla at consequat aliquam. Phasellus tincidunt felis id tellus mollis
-              porta. Nulla rutrum vitae dolor a vestibulum. Sed sed purus accumsan diam tempus feugiat. Suspendisse quis
-              lectus ornare, lacinia ante eget, lacinia massa. Pellentesque ac faucibus eros, sit amet porta justo. Nam
-              ligula tellus, facilisis sed consectetur id, luctus quis leo. Aenean bibendum, risus eu convallis
-              efficitur, mi sem sollicitudin orci, non tincidunt nulla sapien non ligula. Quisque sagittis erat dapibus
-              risus luctus laoreet. Mauris id dolor eget ante fermentum vulputate. Duis eros lacus, elementum sit amet
-              velit quis, tristique aliquet massa.
+            <p className="text-white whitespace-pre-line">
+              Comecei minha jornada como desenvolvedor aos 12 anos tentando criar jogos. Na época eu queria muito jogar
+              um certo jogo, porém, meu computador não era bom o suficiente para rodar ele, foi ai que tive a idéia de
+              tentar recriar aquele jogo, porém, não fazia idéia de como começar. Após algumas pesquisas, acabei
+              conhecendo o RPG Maker, uma ferramenta simples para criação de jogos. {"\n\n"} Alguns anos mais tarde,
+              comecei a fazer um cursinho para poder passar na ETEC. Nesse cursinho, o meu professor era programador. Eu
+              ainda tinha algumas dúvidas se eu realmente gostaria de seguir a area de TI. Esse meu professor foi me
+              mostrando no fim das aulas alguns códigos dele e me ensinando algumas coisas. Consegui aprender bem rápido
+              e ele me disse que seria um desperdicio de potencial eu não fazer TI. {"\n\n"} Segui o conselho dele e
+              prestei para TI, adorei o curso. Quando eu voltava para casa e ia direto para o computador para por em
+              prática o que aprendi nas aulas e experimentar coisas novas. {"\n\n"} No terceiro ano, me candidatei para
+              o Venturus4Tech. Consegui passar e lá eu era o mais novo de todos. Ao final do evento acontecia uma
+              entrevista para trabalhar como estagiario, porém, como eu estudava longe, acabou não dando certo. Pouco
+              tempo depois comecei a fazer serviços freelancer para me desafiar um pouco e ver o quão preparado eu
+              estava para "o mundo real". {"\n\n"} Hoje, continuo desenvolvendo com muita paixão e sempre em busca de
+              novos desafios.
             </p>
           </div>
 
           <div className="gap-4">
-            <SubHeading textColor="green-400" textSize="3xl">
+            <SubHeading textColor="[#72da8f]" className="text-3xl mt-8">
               Certifications:
             </SubHeading>
 
@@ -46,7 +52,7 @@ export default function AboutMeSection() {
           {/* <Image src="/assets/pfp.png" alt="pfp" width={400} height={400} /> */}
 
           <div className="flex flex-col items-center gap-5">
-            <SubHeading textColor="green-400" textSize="3xl">
+            <SubHeading textColor="[#72da8f]" className="text-3xl">
               Techs I use:
             </SubHeading>
 

@@ -32,6 +32,18 @@ body {
   animation: liquid 8s linear infinite alternate;
 }
 
+.rec.rec-arrow {
+  background: #72da8e;
+}
+
+.rec.rec-arrow:hover {
+  background: #72da8e;
+}
+
+.rec.rec-arrow:hover:enabled {
+  background: #72da8e;
+}
+
 .liquidImg {
   width: 350px;
   height: 350px;

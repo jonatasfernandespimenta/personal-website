@@ -1,40 +1,30 @@
-import React, { useState } from "react";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import React from "react";
 import ProjectCard from "./ProjectCard";
 import { IProjects } from "@/utils/projects";
+import Carousel from "react-elastic-carousel";
 
 interface ICarousel {
   projects: IProjects[];
 }
 
-const Carousel = ({ projects }: ICarousel) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
-  };
-
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length);
-  };
-
+const CarouselA = ({ projects }: ICarousel) => {
   return (
     <div className="z-10 flex flex-row justify-around items-center w-full px-32">
-      <FaArrowLeft color="white" size={30} onClick={handlePrev} />
-      {projects.slice(currentIndex, currentIndex + 3).map((project, index) => (
-        <>
-          <ProjectCard
-            key={index}
-            title={project.title}
-            description={project.description}
-            techs={project.techs}
-            isHighlighted={index === 1}
-          />
-        </>
-      ))}
-      <FaArrowRight color="white" size={30} onClick={handleNext} />
+      <Carousel itemsToShow={3} pagination={false}>
+        {projects.map((project, index) => (
+          <>
+            <ProjectCard
+              key={index}
+              title={project.title}
+              description={project.description}
+              techs={project.techs}
+              image={project.image}
+            />
+          </>
+        ))}
+      </Carousel>
     </div>
   );
 };
 
-export default Carousel;
+export default CarouselA;

@@ -16,7 +16,7 @@ export default function ProjectsSection() {
 
       <div className="flex flex-1 min-h-screen items-start p-36 flex-col z-20 justify-around">
         <div className="gap-4">
-          <Heading textColor="green-400">Projects</Heading>
+          <Heading textColor="[#72da8f]">Projects</Heading>
         </div>
 
         <Carousel projects={projects} />

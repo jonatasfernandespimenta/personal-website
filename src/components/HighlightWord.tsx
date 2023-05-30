@@ -4,5 +4,5 @@ interface IHighlightWord {
 }
 
 export default function HighlightWord(props: IHighlightWord) {
-  return <span className={`text-green-400 ${props.className}`}>{props.children}</span>;
+  return <span className={`text-[#72da8f] ${props.className}`}>{props.children}</span>;
 }
