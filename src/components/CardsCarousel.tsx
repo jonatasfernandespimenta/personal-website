@@ -19,6 +19,7 @@ const CarouselA = ({ projects }: ICarousel) => {
               description={project.description}
               techs={project.techs}
               image={project.image}
+              bg={project.bg}
             />
           </>
         ))}

@@ -7,6 +7,7 @@ interface IProjectCard {
   className?: string;
   isHighlighted?: boolean;
   image?: string;
+  bg: string;
 }
 
 export default function ProjectCard(props: IProjectCard) {
@@ -17,7 +18,10 @@ export default function ProjectCard(props: IProjectCard) {
       className={` ${props.isHighlighted ? "scale-110" : "scale-100"} transition-transform duration-100 transform-gpu`}
     >
       <div className="bg-[#36393E] shadow-md rounded w-96 border-b-2 border-[#72da8f]">
-        <div className="h-50 bg-white w-full rounded-t flex items-center justify-center">
+        <div
+          className="min-h-[220px] max-h-[220px] bg-white w-full rounded-t flex items-center justify-center"
+          style={{ background: props.bg }}
+        >
           <img
             src={
               props.image ??
@@ -27,7 +31,7 @@ export default function ProjectCard(props: IProjectCard) {
           />
         </div>
 
-        <div className="p-5">
+        <div className="p-5 min-h-[350px] max-h-[350px]">
           <SubHeading className="text-3xl">{props.title}</SubHeading>
           <p className="text-white">{props.description}</p>
 
