@@ -55,4 +55,12 @@ export const projects: IProjects[] = [
     techs: ["React Native", "Expo", "Python", "Flask"],
     image: "https://raw.githubusercontent.com/jonatasfernandespimenta/ReactNativeChatBot/master/app.gif",
   },
+  {
+    bg: "#fff",
+    title: "CxMapper",
+    description:
+      "Com o CxMapper você pode criar fluxos para criar automações de envios em massa para sua base de clientes.",
+    techs: ["React", "Java Spring", "Typescript"],
+    image: "/assets/tool.gif",
+  },
 ];
