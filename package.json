@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'https://jonatasfernandespimenta.github.io/personal-website/' > ./out/CNAME",
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "@types/node": "20.2.3",
