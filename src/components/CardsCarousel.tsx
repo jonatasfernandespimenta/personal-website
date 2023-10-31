@@ -10,6 +10,7 @@ interface ICarousel {
 const CarouselA = ({ projects }: ICarousel) => {
   return (
     <div className="z-10 flex flex-row md:justify-around items-center w-full md:px-32">
+      {/* @ts-ignore */}
       <Carousel itemsToShow={1} pagination={false}>
         {projects.map((project, index) => (
           <>

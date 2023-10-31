@@ -7,7 +7,7 @@ interface IProjectCard {
   className?: string;
   isHighlighted?: boolean;
   image?: string;
-  bg: string;
+  bg: string | undefined;
 }
 
 export default function ProjectCard(props: IProjectCard) {
