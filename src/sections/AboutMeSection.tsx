@@ -61,7 +61,7 @@ export default function AboutMeSection() {
                 <div className="cursor-pointer flex items-center">
                   <Link href={tech.link} target="_blank">
                     <Image
-                      src={`/assets/techs/${tech.name}.png`}
+                      src={`/nextjs-github-pages/assets/techs/${tech.name}.png`}
                       alt={tech.name}
                       width={60}
                       height={60}
