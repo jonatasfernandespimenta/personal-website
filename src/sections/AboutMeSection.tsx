@@ -58,7 +58,7 @@ export default function AboutMeSection() {
 
             <div className="flex flex-row gap-4">
               {techs.map((tech) => (
-                <div className="cursor-pointer flex items-center">
+                <div key={tech.name} className="cursor-pointer flex items-center">
                   <Link href={tech.link} target="_blank">
                     <Image
                       src={`/nextjs-github-pages/assets/techs/${tech.name}.png`}
