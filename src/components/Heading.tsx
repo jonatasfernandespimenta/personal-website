@@ -10,7 +10,8 @@ export default function Heading(props: IHeading) {
       className={`
         py-2 
         text-${props.textColor ?? "white"}
-        text-5xl
+        md:text-5xl
+        text-4xl
         font-roboto
         font-extrabold
         whitespace-pre-line

@@ -7,12 +7,12 @@ import Link from "next/link";
 export default function AboutMeSection() {
   return (
     <div id="aboutme">
-      <div className="flex flex-row min-h-screen">
-        <div className="flex justify-around flex-1 h-screen items-start p-36 flex-col">
+      <div className="flex md:flex-row flex-col-reverse items-center min-h-screen">
+        <div className="flex justify-around flex-1 h-screen -mt-32 md:-mt-0 items-start p-6 md:p-36 flex-col">
           <div className="gap-4">
             <Heading textColor="[#72da8f]">About me</Heading>
 
-            <p className="text-white whitespace-pre-line">
+            <p className="text-white whitespace-pre-line text-center md:text-left">
               Comecei minha jornada como desenvolvedor aos 12 anos tentando criar jogos. Na época eu queria muito jogar
               um certo jogo, porém, meu computador não era bom o suficiente para rodar ele, foi ai que tive a idéia de
               tentar recriar aquele jogo, porém, não fazia idéia de como começar. Após algumas pesquisas, acabei
@@ -48,7 +48,7 @@ export default function AboutMeSection() {
             <img src="https://avatars.githubusercontent.com/u/51496759?v=4" />
           </div>
 
-          <div className="liquid mt-10 ml-20" />
+          <div className="liquid mt-10 md:ml-20" />
           {/* <Image src="/assets/pfp.png" alt="pfp" width={400} height={400} /> */}
 
           <div className="flex flex-col items-center gap-5">

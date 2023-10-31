@@ -9,8 +9,8 @@ interface ICarousel {
 
 const CarouselA = ({ projects }: ICarousel) => {
   return (
-    <div className="z-10 flex flex-row justify-around items-center w-full px-32">
-      <Carousel itemsToShow={3} pagination={false}>
+    <div className="z-10 flex flex-row md:justify-around items-center w-full md:px-32">
+      <Carousel itemsToShow={1} pagination={false}>
         {projects.map((project, index) => (
           <>
             <ProjectCard

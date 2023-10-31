@@ -13,12 +13,12 @@ import Link from "next/link";
 export default function HomeSection() {
   return (
     <div id="home">
-      <div className="absolute flex flex-1 h-screen z-0 right-0 -mr-10">
+      <div className="absolute md:flex-1 flex md:h-screen flex-1 z-0 right-0 -mr-10 bottom-0">
         <Image src={"/assets/home-wave.svg"} alt="wave" width="1440" height="1024" />
       </div>
 
-      <div className="flex flex-row h-screen z-10">
-        <div className="flex flex-1 h-screen justify-around items-center p-36 flex-col z-10">
+      <div className="flex md:flex-row flex-col h-screen z-10">
+        <div className="flex flex-1 h-screen justify-center text-center md:text-left md:justify-around items-center p-10 md:p-36 flex-col z-10">
           <div>
             <Heading>Hello,</Heading>
 
@@ -32,11 +32,11 @@ export default function HomeSection() {
           </div>
 
           <Link href={"#aboutme"}>
-            <FaArrowDown color="white" size={32} className="animate-bounce" />
+            <FaArrowDown color="white" size={32} className="animate-bounce mt-10 md:mt-0" />
           </Link>
         </div>
 
-        <div className="flex flex-1 h-screen justify-center p-28 flex-col z-10">
+        <div className="flex flex-1 -mt-80 md:-mt-0 md:h-screen justify-center md:p-28 flex-col z-10">
           <Lottie animationData={laptopCoffeeAnimation} loop={true} />
         </div>
       </div>

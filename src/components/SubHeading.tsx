@@ -11,7 +11,8 @@ export default function SubHeading(props: ISubHeading) {
       className={`
         py-2 
         text-${props.textColor ?? "white"}
-        text-3xl
+        md:text-3xl
+        text-2xl
         font-roboto
         font-bold
         whitespace-pre-line

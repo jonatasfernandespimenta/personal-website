@@ -17,7 +17,7 @@ export default function ProjectCard(props: IProjectCard) {
     <div
       className={` ${props.isHighlighted ? "scale-110" : "scale-100"} transition-transform duration-100 transform-gpu`}
     >
-      <div className="bg-[#36393E] shadow-md rounded w-96 border-b-2 border-[#72da8f]">
+      <div className="bg-[#36393E] shadow-md rounded md:w-96 w-full border-b-2 border-[#72da8f]">
         <div
           className="min-h-[220px] max-h-[220px] bg-white w-full rounded-t flex items-center justify-center"
           style={{ background: props.bg }}
