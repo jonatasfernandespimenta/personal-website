@@ -26,7 +26,7 @@ export default function AboutMeSection() {
               o Venturus4Tech. Consegui passar e lá eu era o mais novo de todos. Ao final do evento acontecia uma
               entrevista para trabalhar como estagiario, porém, como eu estudava longe, acabou não dando certo. Pouco
               tempo depois comecei a fazer serviços freelancer para me desafiar um pouco e ver o quão preparado eu
-              estava para "o mundo real". {"\n\n"} Hoje, continuo desenvolvendo com muita paixão e sempre em busca de
+              estava para &quot;o mundo real&quot;. {"\n\n"} Hoje, continuo desenvolvendo com muita paixão e sempre em busca de
               novos desafios.
             </p>
           </div>
