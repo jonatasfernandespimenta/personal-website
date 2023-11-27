@@ -11,7 +11,7 @@ export default function ProjectsSection() {
   return (
     <div id="projects">
       <div className="absolute flex flex-1 min-h-screen z-0 -left-24 md:left-0 md:-mt-32">
-        <Image src={"/nextjs-github-pages/assets/projects-wave.svg"} alt="wave" width="1440" height="1024" />
+        <Image src={"/assets/projects-wave.svg"} alt="wave" width="1440" height="1024" />
       </div>
 
       <div className="flex flex-1 min-h-screen md:items-start items-center mt-10 md:mt-0 md:p-36 flex-col z-20 md:justify-around">

@@ -14,7 +14,7 @@ export default function HomeSection() {
   return (
     <div id="home">
       <div className="absolute md:flex-1 flex md:h-screen flex-1 z-0 right-0 -mr-10 bottom-0">
-        <Image src={"/nextjs-github-pages/assets/home-wave.svg"} alt="wave" width="1440" height="1024" />
+        <Image src={"/assets/home-wave.svg"} alt="wave" width="1440" height="1024" />
       </div>
 
       <div className="flex md:flex-row flex-col h-screen z-10">

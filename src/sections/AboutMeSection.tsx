@@ -60,8 +60,8 @@ export default function AboutMeSection() {
               {techs.map((tech) => (
                 <div key={tech.name} className="cursor-pointer flex items-center">
                   <Link href={tech.link} target="_blank">
-                    <Image
-                      src={`/nextjs-github-pages/assets/techs/${tech.name}.png`}
+                    <img
+                      src={tech.src}
                       alt={tech.name}
                       width={60}
                       height={60}
