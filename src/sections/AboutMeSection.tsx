@@ -38,7 +38,7 @@ export default function AboutMeSection() {
 
             <p className="whitespace-pre-line text-white">
               • Ténico em Informatica - ETEC {"\n"}• Venturus 4Tech - Venturus {"\n"}• Assemble - Rocketseat {"\n"}•
-              Desenvolvimento python - Udemy {"\n"}• NestJS Official Course - NestJS
+              Desenvolvimento python - Udemy {"\n"}• NestJS Official Course - NestJS{"\n"}• NodeJS Ignite - Rocketseat
             </p>
           </div>
         </div>
