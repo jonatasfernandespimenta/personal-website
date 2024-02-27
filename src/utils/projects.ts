@@ -14,7 +14,7 @@ export const projects: IProjects[] = [
       "Aplicativo para compra de quadros customizaveis, onde o cliente pode customizar seu quadro dentro do próprio aplicativo.",
     techs: ["NextJS", "Postgres", "Magento", "React Native", "NestJS", "Typescript", "TypeORM"],
     image:
-      "https://cdn.discordapp.com/attachments/494292848728997899/841375548290891816/Captura_de_Tela_2021-05-10_as_15.03.22.png",
+      "https://raw.githubusercontent.com/jonatasfernandespimenta/personal-website/main/public/assets/quadroo.png",
   },
   {
     bg: "#fce962",
