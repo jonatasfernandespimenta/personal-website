@@ -10,7 +10,7 @@ export function CaseStudies() {
         {caseStudies.map((study) => (
           <div key={study.company} className="flex flex-col">
             <div className="h-[400px] mb-8 overflow-hidden bg-surface-container-highest relative">
-              <Image src={study.image} alt={study.title} fill className="object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+              <Image src={study.image} alt={study.title} fill className="object-contain grayscale hover:grayscale-0 transition-all duration-700" />
             </div>
             <div className="flex justify-between items-center mb-4">
               <span className="mono-label text-primary">{study.tag}</span>
