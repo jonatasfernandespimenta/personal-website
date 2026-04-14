@@ -41,7 +41,7 @@
     },
     "architecture": {
       "title": "Consultoria em Arquitetura",
-      "description": "Projetando a arquitetura certa para o seu problema — não a mais complexa. Monolitos quando fazem sentido, microsserviços quando não, e o meio-termo pragmático que a maioria dos times realmente precisa."
+      "description": "Projetando a arquitetura certa para o seu problema — não a mais complexa. Monolitos quando resolvem, microsserviços só quando realmente precisa, e o meio-termo pragmático que a maioria dos times precisa na prática."
     },
     "product": {
       "title": "Engenharia de Produto",
