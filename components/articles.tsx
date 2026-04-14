@@ -25,7 +25,7 @@ export async function Articles() {
               href={article.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group p-6 bg-surface-container border border-outline-variant/10 hover:border-primary/20 transition-all"
+              className="group p-6 bg-surface-container border border-outline-variant/10 hover:border-primary/20 transition-all rounded-lg"
             >
               <span className="mono-label text-slate-500 mb-4 block">
                 {formatted}
@@ -41,7 +41,7 @@ export async function Articles() {
                   {article.categories.slice(0, 3).map((cat) => (
                     <span
                       key={cat}
-                      className="text-[10px] px-2 py-1 bg-surface-container-high border border-outline-variant/30 mono-label"
+                      className="text-[10px] px-2 py-1 bg-surface-container-high border border-outline-variant/30 mono-label rounded-full"
                     >
                       {cat}
                     </span>

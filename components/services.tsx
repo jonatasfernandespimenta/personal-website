@@ -18,7 +18,7 @@ function ServiceCard({
   return (
     <motion.div
       layout
-      className={`bg-surface-container relative group overflow-hidden cursor-pointer ${
+      className={`bg-surface-container relative group overflow-hidden cursor-pointer rounded-lg ${
         isExpanded ? "md:col-span-8 border border-primary/10" : "md:col-span-4"
       }`}
       onMouseEnter={onExpand}
@@ -96,7 +96,7 @@ function ServiceCard({
               {service.tags.map((tag, i) => (
                 <motion.span
                   key={tag}
-                  className="px-3 py-1 bg-surface-container-highest text-slate-300 mono-label"
+                  className="px-3 py-1 bg-surface-container-highest text-slate-300 mono-label rounded-full"
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.2, delay: 0.15 + i * 0.04 }}

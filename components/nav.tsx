@@ -17,7 +17,7 @@ export function Nav() {
             </a>
           ))}
         </div>
-        <a href="#contact" className="bg-primary-container text-on-primary-container px-6 py-2 text-sm font-bold hover:bg-[#75ff9e] transition-colors duration-150">
+        <a href="#contact" className="bg-primary-container text-on-primary-container px-6 py-2 text-sm font-bold hover:bg-[#75ff9e] transition-colors duration-150 rounded-lg">
           Get in Touch
         </a>
       </div>

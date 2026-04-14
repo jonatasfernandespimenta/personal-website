@@ -1,7 +1,7 @@
 export function Contact() {
   return (
     <section className="max-w-7xl mx-auto px-8 mb-48" id="contact">
-      <div className="bg-surface-container p-12 md:p-20 border border-outline-variant/10 relative overflow-hidden">
+      <div className="bg-surface-container p-12 md:p-20 border border-outline-variant/10 relative overflow-hidden rounded-lg">
         <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
         <div className="max-w-2xl">
           <h2 className="text-4xl font-bold mb-4">Let&apos;s Talk About Your Project</h2>
@@ -10,7 +10,7 @@ export function Contact() {
             href="https://app.pipefy.com/public/form/4id1Zwjt"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-primary to-primary-container text-on-primary-container px-10 py-5 font-bold text-lg hover:brightness-110 transition-all"
+            className="inline-block bg-gradient-to-r from-primary to-primary-container text-on-primary-container px-10 py-5 font-bold text-lg hover:brightness-110 transition-all rounded-lg"
           >
             Send Inquiry
           </a>

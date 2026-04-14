@@ -9,7 +9,7 @@ export function CaseStudies() {
       <div className="grid md:grid-cols-2 gap-12">
         {caseStudies.map((study) => (
           <div key={study.company} className="flex flex-col">
-            <div className="h-[400px] mb-8 overflow-hidden bg-surface-container-highest relative">
+            <div className="h-[400px] mb-8 overflow-hidden bg-surface-container-highest relative rounded-lg">
               <Image src={study.image} alt={study.title} fill className="object-contain grayscale hover:grayscale-0 transition-all duration-700" />
             </div>
             <div className="flex justify-between items-center mb-4">
@@ -28,7 +28,7 @@ export function CaseStudies() {
             </div>
             <div className="flex flex-wrap gap-2">
               {study.tags.map((tag) => (
-                <span key={tag} className="text-[10px] px-2 py-1 bg-surface-container-high border border-outline-variant/30 mono-label">{tag}</span>
+                <span key={tag} className="text-[10px] px-2 py-1 bg-surface-container-high border border-outline-variant/30 mono-label rounded-full">{tag}</span>
               ))}
             </div>
           </div>
