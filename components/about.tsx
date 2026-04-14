@@ -6,7 +6,7 @@ export function About() {
       <div className="grid md:grid-cols-12 gap-16 items-center">
         <div className="md:col-span-5 aspect-square bg-surface-container relative">
           <Image
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuASWXWcVJesLMhP9NrK-y6V833zR4kUvjse-s9vhjmFpVEriIsN2A8dHFjeduWTE2WFECXMseAyh1T9MiW4y91jVgONyjkfabfWjPCoo1XVXlGdAJGHOhXxc_j2MnyyMOKy_GNDBxXeFxmZP9cbL23vj6o2990JXhsepw9sDqY_HzzzMW4wnNcPgByXme3JJZ5vcGwZ-NkqXgvXJiLG4SCdlquN-m9Xl5BRlca1yqngOhnzBXNif3kl35Bgj8xfQr0A-7e2I3aN1A"
+            src="/jonatas.png"
             alt="Jônatas Fernandes Pimenta"
             fill
             className="object-cover grayscale brightness-90"
