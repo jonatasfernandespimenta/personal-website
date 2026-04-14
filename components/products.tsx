@@ -10,9 +10,9 @@ export function Products() {
             <div className="text-2xl font-bold mb-2">{product.name}</div>
             <div className="mono-label text-primary mb-6">{product.subtitle}</div>
             <p className="text-on-surface-variant text-sm mb-8">{product.description}</p>
-            <span className="text-primary flex items-center gap-2 font-bold hover:gap-4 transition-all cursor-pointer">
+            <a href={product.url} target="_blank" rel="noopener noreferrer" className="text-primary flex items-center gap-2 font-bold hover:gap-4 transition-all">
               Explore <span className="material-symbols-outlined text-sm">arrow_forward</span>
-            </span>
+            </a>
           </div>
         ))}
       </div>

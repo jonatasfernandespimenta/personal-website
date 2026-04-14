@@ -106,16 +106,19 @@ export const products = [
     name: "Pocket Books",
     subtitle: "AI-Powered Reading Platform",
     description: "3 production AI pipelines: LangGraph reading plan agent, GPT-4o book recommendation engine, and retrospective generator (like Spotify Wrapped for readers). NestJS backend, Stripe payments.",
+    url: "https://www.livo.social/",
   },
   {
     name: "ClaudIA",
     subtitle: "Multi-Agent AI Assistant",
     description: "CLI productivity assistant with LangGraph multi-agent architecture (Main, Planning, Summary agents). RAG knowledge base via Qdrant vector database. Google Calendar + Microsoft Calendar integrations.",
+    url: "https://github.com/jonatasfernandespimenta/ClaudIA",
   },
   {
     name: "Cronock",
     subtitle: "B2B2C Appointment Booking SaaS",
     description: "Appointment booking platform for beauty and aesthetic services in Brazil. NestJS + PostgreSQL with DDD/Clean Architecture, React Native/Expo mobile app, MercadoPago payments.",
+    url: "https://cronock.com/",
   },
 ];
 
