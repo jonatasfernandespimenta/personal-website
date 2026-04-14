@@ -62,7 +62,7 @@ export const caseStudies = [
     image: "/resilion.png",
   },
   {
-    key: "zurich",
+    key: "zurichRetroactive",
     company: "Zurich Santander",
     year: "2024",
     metrics: [
@@ -70,8 +70,20 @@ export const caseStudies = [
       { value: "80%", labelKey: "automation" },
       { value: "~€2M", labelKey: "annualSavings" },
     ],
-    tags: ["DDD", "Strangler Fig", "AWS Lambda", "Resilience4j"],
+    tags: ["Pipeline Parallelization", "Infrastructure Tuning", "Business Analysis"],
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAWY_x0qXruoRuGTNDVvqvZx_RpGbwPXefGv9J6UC3VVXJCoefinns8ZodV4iC10DpL7th9NLVzHdyfatXr6ZXB2M7zHOelyBCyPCpAG8KiL6HzList-ysmyUnzDbt5IyKRQtOJoxzrw9T69b8UgKEEs8SNOdMg-WdiWR9jRMsVjr7--iIPXF32UrLAalXw_grgTRnu-7gdrJbZpD8uccayBomwP3L0DCp1J0iP1YdXUjgOFlg9zs763suvIm2vjxmUf-LPxAuIQ",
+  },
+  {
+    key: "zurichAppView",
+    company: "Zurich Santander",
+    year: "2024–2025",
+    metrics: [
+      { value: "8", labelKey: "adrs" },
+      { value: "82", labelKey: "businessRules" },
+      { value: "8", labelKey: "boundedContexts" },
+    ],
+    tags: ["DDD", "Strangler Fig", "Spring", "Alfresco ECM", "Pega BPM", "Resilience4j", "Azure"],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBRp7ppFPve3advuRwZm1CnaPXWOWW2nOtq-qsO4evRR5t3SWwcHgNi0PC-N1hpz8vDIwcDlHDr3O_ZIp9SZB6nR47y25yYbS2raGb6ibFtWYhyMTDSxMpzT8dizMMHFpccZsikoGAbmiri7u0-W0VF3hG76qbjliULuZPbySZ24lu4evDKv31Z9vxsrFfEtn0Om1aBYrLYCQmcn65tAATDyjnrSQGn-fyFKMKPkpDB2ADrqj3K4W5YRLsUsaJG9vWm-kt2ABxUSw",
   },
   {
     key: "pocketbooks",

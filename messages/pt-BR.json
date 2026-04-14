@@ -75,13 +75,21 @@
       "aiTools": "Ferramentas IA",
       "mlModels": "Modelos ML"
     },
-    "zurich": {
+    "zurichRetroactive": {
       "tag": "Serviços Financeiros · Enterprise",
       "title": "Processamento de Documentos: 12 Meses → 2 Meses — Aceleração de 6x",
-      "description": "Reengenharia do processamento de documentos através de paralelização de pipeline. Elaborei um Documento de Arquitetura de Solução completo com 8 ADRs, 82 regras de negócio, 37 casos de uso e 8 Bounded Contexts usando padrões táticos de DDD. Planejei migração gradual usando Strangler Fig Pattern com deploys canary e rollback automático.",
+      "description": "Atuei como analista de negócios na iniciativa de leitura retroativa da Zurich Santander, reengenhando o fluxo de processamento de documentos para reduzir um prazo projetado de 12 meses para apenas 2 meses através de paralelização estratégica de pipeline e ajuste de infraestrutura.",
       "faster": "Mais Rápido",
       "automation": "Automação",
       "annualSavings": "Economia Anual"
+    },
+    "zurichAppView": {
+      "tag": "Seguros · Arquitetura de Software",
+      "title": "Hub de Integração Enterprise — 8 ADRs, 82 Regras de Negócio, 8 Sistemas Externos",
+      "description": "Elaborei um Documento de Arquitetura de Solução (SAD) completo com 8 ADRs, catálogo de 82 regras de negócio em 7 categorias, 37 casos de uso detalhados e modelo de dados completo com 4 schemas. Especifiquei integrações com 8 sistemas externos (Alfresco ECM, Jarvis OCR, Pega BPM, CCM, Prestador, Portal Corporativo, BOD Seguros, PostgreSQL) com políticas de resiliência (Circuit Breaker, Retry, Rate Limiting). Defini 8 Bounded Contexts usando padrões táticos de DDD e planejei migração gradual usando Strangler Fig Pattern com deploys canary e rollback automático.",
+      "adrs": "ADRs",
+      "businessRules": "Regras de Negócio",
+      "boundedContexts": "Bounded Contexts"
     },
     "pocketbooks": {
       "tag": "IA para Consumidor · SaaS",

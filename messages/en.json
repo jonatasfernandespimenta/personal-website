@@ -75,13 +75,21 @@
       "aiTools": "AI Tools",
       "mlModels": "ML Models"
     },
-    "zurich": {
+    "zurichRetroactive": {
       "tag": "Financial Services · Enterprise",
       "title": "Document Processing: 12 Months → 2 Months — 6x Acceleration",
-      "description": "Reengineered document processing through pipeline parallelization. Authored a full Solution Architecture Document with 8 ADRs, 82 business rules, 37 use cases, and 8 Bounded Contexts using DDD tactical patterns. Planned gradual migration using Strangler Fig Pattern with canary deployments and automatic rollback.",
+      "description": "Acted as business analyst on the Zurich Santander retroactive reading initiative, reengineering the document-processing workflow to reduce a projected 12-month timeline to just 2 months through strategic pipeline parallelization and infrastructure tuning.",
       "faster": "Faster",
       "automation": "Automation",
       "annualSavings": "Annual Savings"
+    },
+    "zurichAppView": {
+      "tag": "Insurance · Software Architecture",
+      "title": "Enterprise Integration Hub — 8 ADRs, 82 Business Rules, 8 External Systems",
+      "description": "Authored a complete Solution Architecture Document (SAD) with 8 ADRs, catalog of 82 business rules across 7 categories, 37 detailed use cases, and a complete data model with 4 schemas. Specified integrations with 8 external systems (Alfresco ECM, Jarvis OCR, Pega BPM, CCM, Service Provider, Corporate Portal, BOD Seguros, PostgreSQL) with resilience policies (Circuit Breaker, Retry, Rate Limiting). Defined 8 Bounded Contexts using DDD tactical patterns and planned a gradual migration using Strangler Fig Pattern with canary deployments and automatic rollback.",
+      "adrs": "ADRs",
+      "businessRules": "Business Rules",
+      "boundedContexts": "Bounded Contexts"
     },
     "pocketbooks": {
       "tag": "Consumer AI · SaaS",
