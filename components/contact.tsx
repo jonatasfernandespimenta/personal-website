@@ -6,13 +6,14 @@ export function Contact() {
         <div className="max-w-2xl">
           <h2 className="text-4xl font-bold mb-4">Let&apos;s Talk About Your Project</h2>
           <p className="text-on-surface-variant mb-12">I&apos;m currently accepting new high-impact projects for 2026. Briefly describe your challenge and let&apos;s see if we&apos;re a fit.</p>
-          <iframe
-            src="https://app.pipefy.com/public/form/4id1Zwjt"
-            width="100%"
-            height="700"
-            className="border-none rounded"
-            title="Contact Form"
-          />
+          <a
+            href="https://app.pipefy.com/public/form/4id1Zwjt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-primary to-primary-container text-on-primary-container px-10 py-5 font-bold text-lg hover:brightness-110 transition-all"
+          >
+            Send Inquiry
+          </a>
         </div>
       </div>
     </section>
