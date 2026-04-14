@@ -18,7 +18,7 @@ export const services = [
   },
   {
     title: "Architecture Consulting",
-    description: "Auditing and designing distributed systems for teams that need to scale 10x without breaking.",
+    description: "Designing the right architecture for your problem — not the most complex one. Monoliths when they make sense, microservices when they don't, and the pragmatic middle ground most teams actually need.",
     tags: ["DDD", "Microservices", "AWS", "Event-Driven"],
     icon: "account_tree",
   },

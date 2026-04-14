@@ -42,7 +42,7 @@
   },
   "engineering": {
     "heading": "Filosofia de Engenharia",
-    "description": "Eu n\u00e3o escolho arquiteturas porque est\u00e3o na moda. Escolho porque resolvem o problema. DDD com bounded contexts quando o dom\u00ednio \u00e9 complexo. Event-driven quando precisa de desacoplamento. Agentes LangGraph quando a IA precisa de acesso real a ferramentas e gerenciamento de estado \u2014 n\u00e3o um wrapper em cima do ChatGPT. O mesmo rigor que trago para sistemas distribu\u00eddos, trago para sistemas de IA: outputs estruturados, tratamento de erros, valida\u00e7\u00e3o de dados reais, processamento ass\u00edncrono. A solu\u00e7\u00e3o certa casa com suas restri\u00e7\u00f5es, n\u00e3o com o hype."
+    "description": "Mantenha simples. Eu n\u00e3o escolho arquiteturas porque est\u00e3o na moda \u2014 escolho porque resolvem o problema com a menor complexidade poss\u00edvel. Um monolito bem estruturado ganha de um microservi\u00e7o mal projetado toda vez. DDD quando o dom\u00ednio justifica, event-driven quando realmente precisa de desacoplamento, e uma API direta quando \u00e9 s\u00f3 isso que voc\u00ea precisa. O mesmo pragmatismo se aplica \u00e0 IA: outputs estruturados, tratamento de erros, valida\u00e7\u00e3o de dados reais. A solu\u00e7\u00e3o certa casa com suas restri\u00e7\u00f5es, n\u00e3o com o hype."
   },
   "products": {
     "heading": "Produtos Que Eu Constru\u00ed, N\u00e3o Apenas Implantei",
