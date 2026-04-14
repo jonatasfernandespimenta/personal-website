@@ -10,12 +10,16 @@ function ServiceCard({
   isExpanded,
   onExpand,
   onCollapse,
+  title,
+  description,
   mostRequestedLabel,
 }: {
   service: (typeof services)[number];
   isExpanded: boolean;
   onExpand: () => void;
   onCollapse: () => void;
+  title: string;
+  description: string;
   mostRequestedLabel: string;
 }) {
   return (
@@ -30,7 +34,6 @@ function ServiceCard({
       transition={{ layout: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] } }}
     >
       <motion.div layout="position" className="p-10">
-        {/* Background icon */}
         <AnimatePresence>
           {isExpanded && (
             <motion.div
@@ -51,7 +54,6 @@ function ServiceCard({
           )}
         </AnimatePresence>
 
-        {/* Badge */}
         <AnimatePresence>
           {isExpanded && service.featured && (
             <motion.div
@@ -66,27 +68,24 @@ function ServiceCard({
           )}
         </AnimatePresence>
 
-        {/* Title */}
         <motion.h3
           layout="position"
           className={`font-bold mb-4 transition-[font-size] duration-300 ${
             isExpanded ? "text-3xl" : "text-xl"
           }`}
         >
-          {service.title}
+          {title}
         </motion.h3>
 
-        {/* Description */}
         <motion.p
           layout="position"
           className={`text-on-surface-variant leading-relaxed transition-all duration-300 ${
             isExpanded ? "max-w-lg mb-8 text-base" : "mb-6 text-sm"
           }`}
         >
-          {service.description}
+          {description}
         </motion.p>
 
-        {/* Tags — only when expanded */}
         <AnimatePresence>
           {isExpanded && service.tags && (
             <motion.div
@@ -111,7 +110,6 @@ function ServiceCard({
           )}
         </AnimatePresence>
 
-        {/* Icon — only when collapsed */}
         <AnimatePresence>
           {!isExpanded && (
             <motion.span
@@ -141,13 +139,15 @@ export function Services() {
         <motion.div layout className="grid md:grid-cols-12 gap-6">
           {services.map((service, i) => (
             <ServiceCard
-              key={service.title}
+              key={service.key}
               service={service}
               isExpanded={expandedIndex === i}
               onExpand={() => setExpandedIndex(i)}
               onCollapse={() => {
                 if (expandedIndex === i) setExpandedIndex(0);
               }}
+              title={t(`${service.key}.title`)}
+              description={t(`${service.key}.description`)}
               mostRequestedLabel={t("mostRequested")}
             />
           ))}

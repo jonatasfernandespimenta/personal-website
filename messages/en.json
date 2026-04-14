@@ -7,11 +7,11 @@
     "getInTouch": "Get in Touch"
   },
   "hero": {
-    "badge": "Available for Projects \u00b7 Q2 2026",
+    "badge": "Available for Projects · Q2 2026",
     "headline1": "Architecture That Scales.",
     "headline2": "AI That Ships.",
     "headline3": "Engineering That Delivers.",
-    "subheadline": "Senior Full-Stack Engineer & AI Architect. I help CTOs and technical founders design distributed systems, build production AI features \u2014 LangGraph agents, RAG pipelines, ML ensembles \u2014 and ship products that compound. 6+ years at enterprise scale, from microservices to multi-agent AI.",
+    "subheadline": "Senior Full-Stack Engineer & AI Architect. I help CTOs and technical founders design distributed systems, build production AI features — LangGraph agents, RAG pipelines, ML ensembles — and ship products that compound. 6+ years at enterprise scale, from microservices to multi-agent AI.",
     "cta1": "Schedule a Strategy Call",
     "cta2": "See My Work"
   },
@@ -22,7 +22,7 @@
     "heading1": "Architecture + AI.",
     "heading2": "One Senior Engineer.",
     "heading3": "No Agency Overhead.",
-    "description": "I bridge the gap between complex software architecture and production AI systems. No project managers, no junior devs \u2014 just one senior engineer who builds LangGraph multi-agent systems, architects microservices with DDD, and ships real products.",
+    "description": "I bridge the gap between complex software architecture and production AI systems. No project managers, no junior devs — just one senior engineer who builds LangGraph multi-agent systems, architects microservices with DDD, and ships real products.",
     "stats": {
       "yearsExp": "Years Exp",
       "systems": "Systems",
@@ -34,19 +34,83 @@
   },
   "services": {
     "heading": "What I Actually Do",
-    "mostRequested": "Most Requested"
+    "mostRequested": "Most Requested",
+    "ai": {
+      "title": "AI Agents, RAG Pipelines & Intelligent Products",
+      "description": "Production AI systems, not prototypes. LangGraph multi-agent architectures, RAG pipelines with vector search, AI copilots with tool-calling, recommendation engines, ML model ensembles, and structured LLM outputs."
+    },
+    "architecture": {
+      "title": "Architecture Consulting",
+      "description": "Designing the right architecture for your problem — not the most complex one. Monoliths when they make sense, microservices when they don't, and the pragmatic middle ground most teams actually need."
+    },
+    "product": {
+      "title": "Product Engineering",
+      "description": "Full-stack execution from Figma to production. Modern tech stacks built for speed and maintainability."
+    },
+    "integration": {
+      "title": "System Integration",
+      "description": "Connecting fragmented legacy systems, universal hardware integration, and IoT ecosystems."
+    },
+    "cto": {
+      "title": "Interim CTO",
+      "description": "Strategic technical leadership, hiring roadmaps, and engineering culture for startups."
+    }
   },
   "caseStudies": {
     "heading": "Proven Results. Across Industries. At Scale.",
-    "subheading": "A selection of enterprise projects and strategic technical interventions."
+    "subheading": "A selection of enterprise projects and strategic technical interventions.",
+    "cxmapper": {
+      "tag": "Enterprise SaaS · Insurance",
+      "title": "Omnichannel Communication Platform — 30+ Workflow Nodes, Git-Like Versioning",
+      "description": "Built a SaaS platform for visual communication automation used by SulAmérica and Caixa Seguradora. Visual DAG workflow builder with 30+ node types, unique Git-like versioning system (branches, commits, PRs, approval gates), WhatsApp chatbot orchestrator, 4 template types, multi-tenant architecture with RBAC, and full observability. NestJS monolith consolidated from 20+ microservices.",
+      "workflowNodes": "Workflow Nodes",
+      "enterpriseClients": "Enterprise Clients",
+      "msgsMonth": "Msgs/Month"
+    },
+    "resilion": {
+      "tag": "AI · IoT · Infrastructure",
+      "title": "Infrastructure Intelligence Platform — AI Copilot + IoT Sensor Network",
+      "description": "Architected the entire Resilion platform end-to-end: Nexus backend (Hono + PostgreSQL/TimescaleDB), Sentinel dashboard (Next.js 15 + Mapbox + Three.js), AI Copilot (LangGraph with 15+ tools and intent classification), Ranger data collector agent (two-layer architecture with offline durability), and Courier IoT gateway (protocol-agnostic FTP/SFTP/MQTT). Designed a 6-model ML ensemble for predictive failure forecasting.",
+      "systemsBuilt": "Systems Built",
+      "aiTools": "AI Tools",
+      "mlModels": "ML Models"
+    },
+    "zurich": {
+      "tag": "Financial Services · Enterprise",
+      "title": "Document Processing: 12 Months → 2 Months — 6x Acceleration",
+      "description": "Reengineered document processing through pipeline parallelization. Authored a full Solution Architecture Document with 8 ADRs, 82 business rules, 37 use cases, and 8 Bounded Contexts using DDD tactical patterns. Planned gradual migration using Strangler Fig Pattern with canary deployments and automatic rollback.",
+      "faster": "Faster",
+      "automation": "Automation",
+      "annualSavings": "Annual Savings"
+    },
+    "pocketbooks": {
+      "tag": "Consumer AI · SaaS",
+      "title": "3 AI Pipelines — Recommendations, Retrospectives & Reading Plans",
+      "description": "Built three production AI pipelines: a two-phase LangGraph agent for reading plans (20-iteration tool-calling loops against Google Books API), a recommendation engine with recency-weighted context (GPT-4o, 7 candidates monthly), and a retrospective generator with 13 structured AI-generated text fields. All async via SQS, premium-gated, multi-language.",
+      "aiSystems": "AI Systems",
+      "agentIterations": "Agent Iterations",
+      "candidateEngine": "Candidate Engine"
+    }
   },
   "engineering": {
     "heading": "Engineering Philosophy",
-    "description": "Keep it simple. I don't pick architectures because they're trendy \u2014 I pick them because they solve the problem with the least complexity possible. A well-structured monolith beats a poorly designed microservices mess every time. DDD when the domain warrants it, event-driven when you actually need decoupling, and a straightforward API when that's all you need. The same pragmatism applies to AI: structured outputs, proper error handling, real data validation. The right solution matches your constraints, not the hype cycle."
+    "description": "Keep it simple. I don't pick architectures because they're trendy — I pick them because they solve the problem with the least complexity possible. A well-structured monolith beats a poorly designed microservices mess every time. DDD when the domain warrants it, event-driven when you actually need decoupling, and a straightforward API when that's all you need. The same pragmatism applies to AI: structured outputs, proper error handling, real data validation. The right solution matches your constraints, not the hype cycle."
   },
   "products": {
     "heading": "Products I've Built, Not Just Deployed",
-    "explore": "Explore"
+    "explore": "Explore",
+    "pocketbooks": {
+      "subtitle": "AI-Powered Reading Platform",
+      "description": "3 production AI pipelines: LangGraph reading plan agent, GPT-4o book recommendation engine, and retrospective generator (like Spotify Wrapped for readers). NestJS backend, Stripe payments."
+    },
+    "claudia": {
+      "subtitle": "Multi-Agent AI Assistant",
+      "description": "CLI productivity assistant with LangGraph multi-agent architecture (Main, Planning, Summary agents). RAG knowledge base via Qdrant vector database. Google Calendar + Microsoft Calendar integrations."
+    },
+    "cronock": {
+      "subtitle": "B2B2C Appointment Booking SaaS",
+      "description": "Appointment booking platform for beauty and aesthetic services in Brazil. NestJS + PostgreSQL with DDD/Clean Architecture, React Native/Expo mobile app, MercadoPago payments."
+    }
   },
   "articles": {
     "heading": "I Share What I Learn",
@@ -54,9 +118,9 @@
   },
   "about": {
     "heading": "The Short Version",
-    "p1": "I started coding at 12 with RPG Maker and building neural networks by 17. That curiosity turned into a career spanning enterprise architecture, AI engineering, and product development \u2014 building CxMapper for SulAm\u00e9rica and Caixa Seguradora, architecting an end-to-end IoT intelligence platform at Koru, and reducing a 12-month document workflow to 2 months at Zurich Santander.",
-    "p2": "Today I work with companies of all sizes \u2014 from startups to enterprises \u2014 who need someone to architect scalable systems, ship real features, and unblock their engineering teams. I also build my own products: Pocket Books (a reading platform with AI features), Cronock (a B2B2C booking SaaS), and ClaudIA (an open-source multi-agent assistant). The best engineers understand what it means to own something end-to-end.",
-    "credentials": "MBA in Software Architecture (2025) \u00b7 MBA in AI Engineering (2026) \u00b7 Portuguese (native) \u00b7 English (fluent)"
+    "p1": "I started coding at 12 with RPG Maker and building neural networks by 17. That curiosity turned into a career spanning enterprise architecture, AI engineering, and product development — building CxMapper for SulAmérica and Caixa Seguradora, architecting an end-to-end IoT intelligence platform at Koru, and reducing a 12-month document workflow to 2 months at Zurich Santander.",
+    "p2": "Today I work with companies of all sizes — from startups to enterprises — who need someone to architect scalable systems, ship real features, and unblock their engineering teams. I also build my own products: Pocket Books (a reading platform with AI features), Cronock (a B2B2C booking SaaS), and ClaudIA (an open-source multi-agent assistant). The best engineers understand what it means to own something end-to-end.",
+    "credentials": "MBA in Software Architecture (2025) · MBA in AI Engineering (2026) · Portuguese (native) · English (fluent)"
   },
   "contact": {
     "heading": "Let's Talk About Your Project",
@@ -64,6 +128,6 @@
     "cta": "Send Inquiry"
   },
   "footer": {
-    "copyright": "\u00a9 2026 J\u00f4natas Fernandes Pimenta. All rights reserved."
+    "copyright": "© 2026 Jônatas Fernandes Pimenta. All rights reserved."
   }
 }

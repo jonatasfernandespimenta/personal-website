@@ -11,21 +11,21 @@ export async function CaseStudies() {
       <p className="text-on-surface-variant mb-16 max-w-xl">{t("subheading")}</p>
       <div className="grid md:grid-cols-2 gap-12">
         {caseStudies.map((study) => (
-          <div key={study.company} className="flex flex-col">
+          <div key={study.key} className="flex flex-col">
             <div className="h-[400px] mb-8 overflow-hidden bg-surface-container-highest relative rounded-lg">
-              <Image src={study.image} alt={study.title} fill className="object-contain grayscale hover:grayscale-0 transition-all duration-700" />
+              <Image src={study.image} alt={t(`${study.key}.title`)} fill className="object-contain grayscale hover:grayscale-0 transition-all duration-700" />
             </div>
             <div className="flex justify-between items-center mb-4">
-              <span className="mono-label text-primary">{study.tag}</span>
+              <span className="mono-label text-primary">{t(`${study.key}.tag`)}</span>
               <span className="font-bold text-xl">{study.company}</span>
             </div>
-            <h3 className="text-2xl font-bold mb-4">{study.title}</h3>
-            <p className="text-on-surface-variant text-sm leading-relaxed mb-6">{study.description}</p>
+            <h3 className="text-2xl font-bold mb-4">{t(`${study.key}.title`)}</h3>
+            <p className="text-on-surface-variant text-sm leading-relaxed mb-6">{t(`${study.key}.description`)}</p>
             <div className="grid grid-cols-3 gap-4 mb-8">
               {study.metrics.map((metric) => (
-                <div key={metric.label}>
+                <div key={metric.labelKey}>
                   <div className="text-lg font-bold">{metric.value}</div>
-                  <div className="mono-label text-[9px] text-slate-500">{metric.label}</div>
+                  <div className="mono-label text-[9px] text-slate-500">{t(`${study.key}.${metric.labelKey}`)}</div>
                 </div>
               ))}
             </div>

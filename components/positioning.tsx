@@ -17,9 +17,9 @@ export async function Positioning() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-y-12 gap-x-8">
           {stats.map((stat) => (
-            <div key={stat.label}>
+            <div key={stat.labelKey}>
               <div className="text-4xl font-bold text-primary mb-1">{stat.value}</div>
-              <div className="mono-label">{t(`stats.${stat.label}`)}</div>
+              <div className="mono-label">{t(`stats.${stat.labelKey}`)}</div>
             </div>
           ))}
         </div>

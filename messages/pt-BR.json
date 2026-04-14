@@ -1,17 +1,17 @@
 {
   "nav": {
     "work": "Projetos",
-    "services": "Servi\u00e7os",
+    "services": "Serviços",
     "about": "Sobre",
     "writing": "Artigos",
     "getInTouch": "Fale Comigo"
   },
   "hero": {
-    "badge": "Dispon\u00edvel para Projetos \u00b7 Q2 2026",
+    "badge": "Disponível para Projetos · Q2 2026",
     "headline1": "Arquitetura Que Escala.",
     "headline2": "IA Que Entrega.",
     "headline3": "Engenharia Que Funciona.",
-    "subheadline": "Engenheiro Full-Stack S\u00eanior & Arquiteto de IA. Ajudo CTOs e fundadores t\u00e9cnicos a projetar sistemas distribu\u00eddos, construir features de IA em produ\u00e7\u00e3o \u2014 agentes LangGraph, pipelines RAG, conjuntos de ML \u2014 e entregar produtos que crescem. 6+ anos em escala enterprise, de microsservi\u00e7os a IA multi-agente.",
+    "subheadline": "Engenheiro Full-Stack Sênior & Arquiteto de IA. Ajudo CTOs e fundadores técnicos a projetar sistemas distribuídos, construir features de IA em produção — agentes LangGraph, pipelines RAG, conjuntos de ML — e entregar produtos que crescem. 6+ anos em escala enterprise, de microsserviços a IA multi-agente.",
     "cta1": "Agende uma Conversa",
     "cta2": "Veja Meu Trabalho"
   },
@@ -20,43 +20,107 @@
   },
   "positioning": {
     "heading1": "Arquitetura + IA.",
-    "heading2": "Um Engenheiro S\u00eanior.",
-    "heading3": "Sem Overhead de Ag\u00eancia.",
-    "description": "Eu fa\u00e7o a ponte entre arquitetura de software complexa e sistemas de IA em produ\u00e7\u00e3o. Sem gerentes de projeto, sem devs juniores \u2014 apenas um engenheiro s\u00eanior que constr\u00f3i sistemas multi-agente com LangGraph, arquiteta microsservi\u00e7os com DDD e entrega produtos reais.",
+    "heading2": "Um Engenheiro Sênior.",
+    "heading3": "Sem Overhead de Agência.",
+    "description": "Eu faço a ponte entre arquitetura de software complexa e sistemas de IA em produção. Sem gerentes de projeto, sem devs juniores — apenas um engenheiro sênior que constrói sistemas multi-agente com LangGraph, arquiteta microsserviços com DDD e entrega produtos reais.",
     "stats": {
       "yearsExp": "Anos de Exp",
       "systems": "Sistemas",
       "aiSystems": "Sistemas IA",
       "products": "Produtos",
-      "awsReduction": "Redu\u00e7\u00e3o AWS",
+      "awsReduction": "Redução AWS",
       "mlModels": "Modelos ML"
     }
   },
   "services": {
-    "heading": "O Que Eu Fa\u00e7o",
-    "mostRequested": "Mais Solicitado"
+    "heading": "O Que Eu Faço",
+    "mostRequested": "Mais Solicitado",
+    "ai": {
+      "title": "Agentes de IA, Pipelines RAG & Produtos Inteligentes",
+      "description": "Sistemas de IA em produção, não protótipos. Arquiteturas multi-agente com LangGraph, pipelines RAG com busca vetorial, copilotos de IA com tool-calling, motores de recomendação, conjuntos de modelos ML e outputs estruturados de LLM."
+    },
+    "architecture": {
+      "title": "Consultoria em Arquitetura",
+      "description": "Projetando a arquitetura certa para o seu problema — não a mais complexa. Monolitos quando fazem sentido, microsserviços quando não, e o meio-termo pragmático que a maioria dos times realmente precisa."
+    },
+    "product": {
+      "title": "Engenharia de Produto",
+      "description": "Execução full-stack do Figma à produção. Stacks modernas construídas para velocidade e manutenibilidade."
+    },
+    "integration": {
+      "title": "Integração de Sistemas",
+      "description": "Conectando sistemas legados fragmentados, integração universal de hardware e ecossistemas IoT."
+    },
+    "cto": {
+      "title": "CTO Interino",
+      "description": "Liderança técnica estratégica, roadmaps de contratação e cultura de engenharia para startups."
+    }
   },
   "caseStudies": {
-    "heading": "Resultados Comprovados. Em Diversas Ind\u00fastrias. Em Escala.",
-    "subheading": "Uma sele\u00e7\u00e3o de projetos enterprise e interven\u00e7\u00f5es t\u00e9cnicas estrat\u00e9gicas."
+    "heading": "Resultados Comprovados. Em Diversas Indústrias. Em Escala.",
+    "subheading": "Uma seleção de projetos enterprise e intervenções técnicas estratégicas.",
+    "cxmapper": {
+      "tag": "SaaS Enterprise · Seguros",
+      "title": "Plataforma de Comunicação Omnichannel — 30+ Nós de Workflow, Versionamento Git-Like",
+      "description": "Construí uma plataforma SaaS para automação visual de comunicação usada por SulAmérica e Caixa Seguradora. Editor visual DAG com 30+ tipos de nós, sistema único de versionamento Git-like (branches, commits, PRs, gates de aprovação), orquestrador de chatbot WhatsApp, 4 tipos de template, arquitetura multi-tenant com RBAC e observabilidade completa. Monolito NestJS consolidado de 20+ microsserviços.",
+      "workflowNodes": "Nós de Workflow",
+      "enterpriseClients": "Clientes Enterprise",
+      "msgsMonth": "Msgs/Mês"
+    },
+    "resilion": {
+      "tag": "IA · IoT · Infraestrutura",
+      "title": "Plataforma de Inteligência de Infraestrutura — Copiloto IA + Rede de Sensores IoT",
+      "description": "Arquitetei toda a plataforma Resilion de ponta a ponta: backend Nexus (Hono + PostgreSQL/TimescaleDB), dashboard Sentinel (Next.js 15 + Mapbox + Three.js), Copiloto IA (LangGraph com 15+ ferramentas e classificação de intenção), agente coletor de dados Ranger (arquitetura em duas camadas com durabilidade offline) e gateway IoT Courier (agnóstico a protocolo FTP/SFTP/MQTT). Projetei um conjunto de 6 modelos ML para previsão de falhas.",
+      "systemsBuilt": "Sistemas Construídos",
+      "aiTools": "Ferramentas IA",
+      "mlModels": "Modelos ML"
+    },
+    "zurich": {
+      "tag": "Serviços Financeiros · Enterprise",
+      "title": "Processamento de Documentos: 12 Meses → 2 Meses — Aceleração de 6x",
+      "description": "Reengenharia do processamento de documentos através de paralelização de pipeline. Elaborei um Documento de Arquitetura de Solução completo com 8 ADRs, 82 regras de negócio, 37 casos de uso e 8 Bounded Contexts usando padrões táticos de DDD. Planejei migração gradual usando Strangler Fig Pattern com deploys canary e rollback automático.",
+      "faster": "Mais Rápido",
+      "automation": "Automação",
+      "annualSavings": "Economia Anual"
+    },
+    "pocketbooks": {
+      "tag": "IA para Consumidor · SaaS",
+      "title": "3 Pipelines de IA — Recomendações, Retrospectivas & Planos de Leitura",
+      "description": "Construí três pipelines de IA em produção: um agente LangGraph de duas fases para planos de leitura (loops de tool-calling de 20 iterações contra a API do Google Books), um motor de recomendação com contexto ponderado por recência (GPT-4o, 7 candidatos mensais) e um gerador de retrospectiva com 13 campos de texto estruturados gerados por IA. Tudo assíncrono via SQS, com gate premium e multi-idioma.",
+      "aiSystems": "Sistemas de IA",
+      "agentIterations": "Iterações do Agente",
+      "candidateEngine": "Motor de Candidatos"
+    }
   },
   "engineering": {
     "heading": "Filosofia de Engenharia",
-    "description": "Mantenha simples. Eu n\u00e3o escolho arquiteturas porque est\u00e3o na moda \u2014 escolho porque resolvem o problema com a menor complexidade poss\u00edvel. Um monolito bem estruturado ganha de um microservi\u00e7o mal projetado toda vez. DDD quando o dom\u00ednio justifica, event-driven quando realmente precisa de desacoplamento, e uma API direta quando \u00e9 s\u00f3 isso que voc\u00ea precisa. O mesmo pragmatismo se aplica \u00e0 IA: outputs estruturados, tratamento de erros, valida\u00e7\u00e3o de dados reais. A solu\u00e7\u00e3o certa casa com suas restri\u00e7\u00f5es, n\u00e3o com o hype."
+    "description": "Mantenha simples. Eu não escolho arquiteturas porque estão na moda — escolho porque resolvem o problema com a menor complexidade possível. Um monolito bem estruturado ganha de um microsserviço mal projetado toda vez. DDD quando o domínio justifica, event-driven quando realmente precisa de desacoplamento, e uma API direta quando é só isso que você precisa. O mesmo pragmatismo se aplica à IA: outputs estruturados, tratamento de erros, validação de dados reais. A solução certa casa com suas restrições, não com o hype."
   },
   "products": {
-    "heading": "Produtos Que Eu Constru\u00ed, N\u00e3o Apenas Implantei",
-    "explore": "Explorar"
+    "heading": "Produtos Que Eu Construí, Não Apenas Implantei",
+    "explore": "Explorar",
+    "pocketbooks": {
+      "subtitle": "Plataforma de Leitura com IA",
+      "description": "3 pipelines de IA em produção: agente LangGraph para planos de leitura, motor de recomendação GPT-4o e gerador de retrospectiva (como Spotify Wrapped para leitores). Backend NestJS, pagamentos Stripe."
+    },
+    "claudia": {
+      "subtitle": "Assistente IA Multi-Agente",
+      "description": "Assistente de produtividade CLI com arquitetura multi-agente LangGraph (Agente Principal, de Planejamento e de Resumo). Base de conhecimento RAG via banco vetorial Qdrant. Integrações com Google Calendar + Microsoft Calendar."
+    },
+    "cronock": {
+      "subtitle": "SaaS B2B2C de Agendamento",
+      "description": "Plataforma de agendamento para serviços de beleza e estética no Brasil. NestJS + PostgreSQL com DDD/Clean Architecture, app mobile React Native/Expo, pagamentos MercadoPago."
+    }
   },
   "articles": {
     "heading": "Eu Compartilho o Que Aprendo",
-    "subheading": "Artigos publicados sobre arquitetura, sistemas distribu\u00eddos e lideran\u00e7a em engenharia."
+    "subheading": "Artigos publicados sobre arquitetura, sistemas distribuídos e liderança em engenharia."
   },
   "about": {
-    "heading": "A Vers\u00e3o Curta",
-    "p1": "Comecei a programar aos 12 anos com RPG Maker e a construir redes neurais aos 17. Essa curiosidade se transformou em uma carreira que abrange arquitetura enterprise, engenharia de IA e desenvolvimento de produtos \u2014 construindo o CxMapper para SulAm\u00e9rica e Caixa Seguradora, arquitetando uma plataforma de intelig\u00eancia IoT de ponta a ponta na Koru, e reduzindo um fluxo de documentos de 12 meses para 2 meses na Zurich Santander.",
-    "p2": "Hoje trabalho com empresas de todos os tamanhos \u2014 de startups a enterprises \u2014 que precisam de algu\u00e9m para arquitetar sistemas escal\u00e1veis, entregar features reais e desbloquear seus times de engenharia. Tamb\u00e9m constru\u00f3 meus pr\u00f3prios produtos: Pocket Books (plataforma de leitura com features de IA), Cronock (SaaS B2B2C de agendamento) e ClaudIA (assistente multi-agente open source). Os melhores engenheiros entendem o que significa ser dono de algo de ponta a ponta.",
-    "credentials": "MBA em Arquitetura de Software (2025) \u00b7 MBA em Engenharia de IA (2026) \u00b7 Portugu\u00eas (nativo) \u00b7 Ingl\u00eas (fluente)"
+    "heading": "A Versão Curta",
+    "p1": "Comecei a programar aos 12 anos com RPG Maker e a construir redes neurais aos 17. Essa curiosidade se transformou em uma carreira que abrange arquitetura enterprise, engenharia de IA e desenvolvimento de produtos — construindo o CxMapper para SulAmérica e Caixa Seguradora, arquitetando uma plataforma de inteligência IoT de ponta a ponta na Koru, e reduzindo um fluxo de documentos de 12 meses para 2 meses na Zurich Santander.",
+    "p2": "Hoje trabalho com empresas de todos os tamanhos — de startups a enterprises — que precisam de alguém para arquitetar sistemas escaláveis, entregar features reais e desbloquear seus times de engenharia. Também construo meus próprios produtos: Pocket Books (plataforma de leitura com features de IA), Cronock (SaaS B2B2C de agendamento) e ClaudIA (assistente multi-agente open source). Os melhores engenheiros entendem o que significa ser dono de algo de ponta a ponta.",
+    "credentials": "MBA em Arquitetura de Software (2025) · MBA em Engenharia de IA (2026) · Português (nativo) · Inglês (fluente)"
   },
   "contact": {
     "heading": "Vamos Conversar Sobre Seu Projeto",
@@ -64,6 +128,6 @@
     "cta": "Enviar Mensagem"
   },
   "footer": {
-    "copyright": "\u00a9 2026 J\u00f4natas Fernandes Pimenta. Todos os direitos reservados."
+    "copyright": "© 2026 Jônatas Fernandes Pimenta. Todos os direitos reservados."
   }
 }
