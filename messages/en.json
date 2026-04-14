@@ -134,6 +134,14 @@
     "cronock": {
       "subtitle": "B2B2C Appointment Booking SaaS",
       "description": "Appointment booking platform for beauty and aesthetic services in Brazil. NestJS + PostgreSQL with DDD/Clean Architecture, React Native/Expo mobile app, MercadoPago payments."
+    },
+    "cmdmmo": {
+      "subtitle": "Terminal-Based MMORPG",
+      "description": "A multiplayer roguelike MMO that runs entirely in the terminal. Real-time multiplayer via Socket.IO, 3 classes, procedural dungeons, turn-based combat, crafting, housing editor, and global rankings. Built with a custom engine (GlyphEngine). 19 stars on GitHub, 57 upvotes on TabNews."
+    },
+    "glyphengine": {
+      "subtitle": "Terminal Game Engine",
+      "description": "A reusable Python framework for building ASCII-based terminal games. Handles rendering, input, game loops, and UI components. Extracted from CmdMMO as a standalone engine for anyone to build terminal-based games."
     }
   },
   "articles": {

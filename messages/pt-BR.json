@@ -134,6 +134,14 @@
     "cronock": {
       "subtitle": "SaaS B2B2C de Agendamento",
       "description": "Plataforma de agendamento para serviços de beleza e estética no Brasil. NestJS + PostgreSQL com DDD/Clean Architecture, app mobile React Native/Expo, pagamentos MercadoPago."
+    },
+    "cmdmmo": {
+      "subtitle": "MMORPG no Terminal",
+      "description": "Um MMO roguelike multiplayer que roda inteiramente no terminal. Multiplayer em tempo real via Socket.IO, 3 classes, dungeons procedurais, combate por turnos, crafting, editor de casas e rankings globais. Construído com uma engine própria (GlyphEngine). 19 stars no GitHub, 57 upvotes no TabNews."
+    },
+    "glyphengine": {
+      "subtitle": "Engine de Jogos no Terminal",
+      "description": "Um framework reutilizável em Python para construir jogos ASCII no terminal. Cuida de renderização, input, game loops e componentes de UI. Extraído do CmdMMO como uma engine standalone para qualquer pessoa criar jogos no terminal."
     }
   },
   "articles": {

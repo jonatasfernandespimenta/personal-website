@@ -139,6 +139,16 @@ export const products = [
     name: "Cronock",
     url: "https://cronock.com/",
   },
+  {
+    key: "cmdmmo",
+    name: "CmdMMO",
+    url: "https://github.com/jonatasfernandespimenta/CmdMMO",
+  },
+  {
+    key: "glyphengine",
+    name: "GlyphEngine",
+    url: "https://github.com/jonatasfernandespimenta/GlyphEngine",
+  },
 ];
 
 export const socialLinks = {
