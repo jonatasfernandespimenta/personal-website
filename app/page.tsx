@@ -19,12 +19,12 @@ export default function Home() {
         <Hero />
         <SocialProof />
         <Positioning />
+        <About />
         <Services />
         <CaseStudies />
         <Engineering />
         <Products />
         <Articles />
-        <About />
         <Contact />
       </main>
       <Footer />
