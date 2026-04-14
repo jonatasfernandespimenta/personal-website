@@ -22,7 +22,7 @@
     "heading1": "Arquitetura + IA.",
     "heading2": "Um Engenheiro Sênior.",
     "heading3": "Sem Overhead de Agência.",
-    "description": "Eu faço a ponte entre arquitetura de software complexa e sistemas de IA em produção. Sem gerentes de projeto, sem devs juniores — apenas um engenheiro sênior que constrói sistemas multi-agente com LangGraph, arquiteta microsserviços com DDD e entrega produtos reais.",
+    "description": "Trabalho em todo o stack — de arquitetura de sistemas a features de IA em produção. Seja projetando um backend, construindo um copiloto de IA ou ajudando um time a entregar mais rápido, meu foco é resolver o problema real com a abordagem mais simples que funciona.",
     "stats": {
       "yearsExp": "Anos de Exp",
       "systems": "Sistemas",
@@ -70,7 +70,7 @@
     "resilion": {
       "tag": "IA · IoT · Infraestrutura",
       "title": "Plataforma de Inteligência de Infraestrutura — Copiloto IA + Rede de Sensores IoT",
-      "description": "Arquitetei toda a plataforma Resilion de ponta a ponta: backend Nexus (Hono + PostgreSQL/TimescaleDB), dashboard Sentinel (Next.js 15 + Mapbox + Three.js), Copiloto IA (LangGraph com 15+ ferramentas e classificação de intenção), agente coletor de dados Ranger (arquitetura em duas camadas com durabilidade offline) e gateway IoT Courier (agnóstico a protocolo FTP/SFTP/MQTT). Projetei um conjunto de 6 modelos ML para previsão de falhas.",
+      "description": "Contribuí diretamente na construção da plataforma Resilion, atuando em múltiplos sistemas: backend Nexus (Hono + PostgreSQL/TimescaleDB), dashboard de monitoramento Sentinel (Next.js 15 + Mapbox + Three.js), Copiloto IA (LangGraph com 15+ ferramentas e classificação de intenção), agente coletor de dados Ranger e gateway IoT Courier (agnóstico a protocolo FTP/SFTP/MQTT). Contribuí no design de um conjunto de 6 modelos ML para previsão de falhas.",
       "systemsBuilt": "Sistemas Construídos",
       "aiTools": "Ferramentas IA",
       "mlModels": "Modelos ML"
@@ -118,7 +118,7 @@
   },
   "about": {
     "heading": "A Versão Curta",
-    "p1": "Comecei a programar aos 12 anos com RPG Maker e a construir redes neurais aos 17. Essa curiosidade se transformou em uma carreira que abrange arquitetura enterprise, engenharia de IA e desenvolvimento de produtos — construindo o CxMapper para SulAmérica e Caixa Seguradora, arquitetando uma plataforma de inteligência IoT de ponta a ponta na Koru, e reduzindo um fluxo de documentos de 12 meses para 2 meses na Zurich Santander.",
+    "p1": "Comecei a programar aos 12 anos com RPG Maker e a construir redes neurais aos 17. Essa curiosidade se transformou em uma carreira que abrange arquitetura enterprise, engenharia de IA e desenvolvimento de produtos — construindo o CxMapper para SulAmérica e Caixa Seguradora, contribuindo com uma plataforma de inteligência IoT com copiloto de IA na Koru, e reduzindo um fluxo de documentos de 12 meses para 2 meses na Zurich Santander.",
     "p2": "Hoje trabalho com empresas de todos os tamanhos — de startups a enterprises — que precisam de alguém para arquitetar sistemas escaláveis, entregar features reais e desbloquear seus times de engenharia. Também construo meus próprios produtos: Pocket Books (plataforma de leitura com features de IA), Cronock (SaaS B2B2C de agendamento) e ClaudIA (assistente multi-agente open source). Os melhores engenheiros entendem o que significa ser dono de algo de ponta a ponta.",
     "credentials": "MBA em Arquitetura de Software (2025) · MBA em Engenharia de IA (2026) · Português (nativo) · Inglês (fluente)"
   },

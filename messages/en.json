@@ -22,7 +22,7 @@
     "heading1": "Architecture + AI.",
     "heading2": "One Senior Engineer.",
     "heading3": "No Agency Overhead.",
-    "description": "I bridge the gap between complex software architecture and production AI systems. No project managers, no junior devs — just one senior engineer who builds LangGraph multi-agent systems, architects microservices with DDD, and ships real products.",
+    "description": "I work across the full stack — from system architecture to AI features in production. Whether it's designing a backend, building an AI copilot, or helping a team ship faster, I focus on solving the actual problem with the simplest approach that works.",
     "stats": {
       "yearsExp": "Years Exp",
       "systems": "Systems",
@@ -70,7 +70,7 @@
     "resilion": {
       "tag": "AI · IoT · Infrastructure",
       "title": "Infrastructure Intelligence Platform — AI Copilot + IoT Sensor Network",
-      "description": "Architected the entire Resilion platform end-to-end: Nexus backend (Hono + PostgreSQL/TimescaleDB), Sentinel dashboard (Next.js 15 + Mapbox + Three.js), AI Copilot (LangGraph with 15+ tools and intent classification), Ranger data collector agent (two-layer architecture with offline durability), and Courier IoT gateway (protocol-agnostic FTP/SFTP/MQTT). Designed a 6-model ML ensemble for predictive failure forecasting.",
+      "description": "Key contributor to the Resilion platform, working across multiple systems: helped build the Nexus backend (Hono + PostgreSQL/TimescaleDB), Sentinel monitoring dashboard (Next.js 15 + Mapbox + Three.js), AI Copilot (LangGraph with 15+ tools and intent classification), Ranger data collector agent, and Courier IoT gateway (protocol-agnostic FTP/SFTP/MQTT). Contributed to the design of a 6-model ML ensemble for predictive failure forecasting.",
       "systemsBuilt": "Systems Built",
       "aiTools": "AI Tools",
       "mlModels": "ML Models"
@@ -118,7 +118,7 @@
   },
   "about": {
     "heading": "The Short Version",
-    "p1": "I started coding at 12 with RPG Maker and building neural networks by 17. That curiosity turned into a career spanning enterprise architecture, AI engineering, and product development — building CxMapper for SulAmérica and Caixa Seguradora, architecting an end-to-end IoT intelligence platform at Koru, and reducing a 12-month document workflow to 2 months at Zurich Santander.",
+    "p1": "I started coding at 12 with RPG Maker and building neural networks by 17. That curiosity turned into a career spanning enterprise architecture, AI engineering, and product development — building CxMapper for SulAmérica and Caixa Seguradora, contributing to an IoT intelligence platform with AI copilot at Koru, and reducing a 12-month document workflow to 2 months at Zurich Santander.",
     "p2": "Today I work with companies of all sizes — from startups to enterprises — who need someone to architect scalable systems, ship real features, and unblock their engineering teams. I also build my own products: Pocket Books (a reading platform with AI features), Cronock (a B2B2C booking SaaS), and ClaudIA (an open-source multi-agent assistant). The best engineers understand what it means to own something end-to-end.",
     "credentials": "MBA in Software Architecture (2025) · MBA in AI Engineering (2026) · Portuguese (native) · English (fluent)"
   },
