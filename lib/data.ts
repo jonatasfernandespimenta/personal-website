@@ -44,7 +44,7 @@ export const services = [
 
 export const caseStudies = [
   {
-    company: "CxMapper / EzFlow",
+    company: "CxMapper",
     tag: "Enterprise SaaS · Insurance",
     year: "2024–2025",
     title: "Omnichannel Communication Platform — 30+ Workflow Nodes, Git-Like Versioning",
