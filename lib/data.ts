@@ -55,7 +55,7 @@ export const caseStudies = [
     ],
     tags: ["NestJS", "Next.js", "Prisma", "PostgreSQL", "AWS SES", "WhatsApp", "OpenTelemetry"],
     description: "Built a SaaS platform for visual communication automation used by SulAmérica and Caixa Seguradora. Visual DAG workflow builder with 30+ node types, unique Git-like versioning system (branches, commits, PRs, approval gates), WhatsApp chatbot orchestrator, 4 template types, multi-tenant architecture with RBAC, and full observability. NestJS monolith consolidated from 20+ microservices.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAWY_x0qXruoRuGTNDVvqvZx_RpGbwPXefGv9J6UC3VVXJCoefinns8ZodV4iC10DpL7th9NLVzHdyfatXr6ZXB2M7zHOelyBCyPCpAG8KiL6HzList-ysmyUnzDbt5IyKRQtOJoxzrw9T69b8UgKEEs8SNOdMg-WdiWR9jRMsVjr7--iIPXF32UrLAalXw_grgTRnu-7gdrJbZpD8uccayBomwP3L0DCp1J0iP1YdXUjgOFlg9zs763suvIm2vjxmUf-LPxAuIQ",
+    image: "/cxmapper.jpeg",
   },
   {
     company: "Resilion / Koru",
@@ -69,7 +69,7 @@ export const caseStudies = [
     ],
     tags: ["Hono", "Next.js 15", "LangGraph", "CopilotKit", "TimescaleDB", "MQTT"],
     description: "Architected the entire Resilion platform end-to-end: Nexus backend (Hono + PostgreSQL/TimescaleDB), Sentinel dashboard (Next.js 15 + Mapbox + Three.js), AI Copilot (LangGraph with 15+ tools and intent classification), Ranger data collector agent (two-layer architecture with offline durability), and Courier IoT gateway (protocol-agnostic FTP/SFTP/MQTT). Designed a 6-model ML ensemble for predictive failure forecasting.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCMINMcNQmoaOW182eOmioFF6D--Uuat5NugBHNelLerScUYMQVPhD81GM45fMIc1EKneiHgyrEoWgsjfiN4FH7cHAZRZv1gqiT1olZgmNRfoZpjJQ_FHYUzUjWI7NspcXyZHyQ1OXYv5hHc8I4uTrhbGzZt_aN1o-kb8I_wGQbuQLsTsIBcggooa5st_JhC76wzCoCHZLPcl6lmFbSNTG78kUZMkwRUpJB0gJVgshgx0XncIVtNOcArQfimd9cehD-EMPvrN0Grg",
+    image: "/resilion.png",
   },
   {
     company: "Zurich Santander",
