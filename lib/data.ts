@@ -50,6 +50,7 @@ export const caseStudies = [
       { value: "40M+", label: "Msgs/Month" },
     ],
     tags: ["NestJS", "Next.js", "Prisma", "PostgreSQL", "AWS SES", "WhatsApp", "OpenTelemetry"],
+    description: "Built a SaaS platform for visual communication automation used by SulAmérica and Caixa Seguradora. Visual DAG workflow builder with 30+ node types, unique Git-like versioning system (branches, commits, PRs, approval gates), WhatsApp chatbot orchestrator, 4 template types, multi-tenant architecture with RBAC, and full observability. NestJS monolith consolidated from 20+ microservices.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAWY_x0qXruoRuGTNDVvqvZx_RpGbwPXefGv9J6UC3VVXJCoefinns8ZodV4iC10DpL7th9NLVzHdyfatXr6ZXB2M7zHOelyBCyPCpAG8KiL6HzList-ysmyUnzDbt5IyKRQtOJoxzrw9T69b8UgKEEs8SNOdMg-WdiWR9jRMsVjr7--iIPXF32UrLAalXw_grgTRnu-7gdrJbZpD8uccayBomwP3L0DCp1J0iP1YdXUjgOFlg9zs763suvIm2vjxmUf-LPxAuIQ",
   },
   {
@@ -63,6 +64,7 @@ export const caseStudies = [
       { value: "6", label: "ML Models" },
     ],
     tags: ["Hono", "Next.js 15", "LangGraph", "CopilotKit", "TimescaleDB", "MQTT"],
+    description: "Architected the entire Resilion platform end-to-end: Nexus backend (Hono + PostgreSQL/TimescaleDB), Sentinel dashboard (Next.js 15 + Mapbox + Three.js), AI Copilot (LangGraph with 15+ tools and intent classification), Ranger data collector agent (two-layer architecture with offline durability), and Courier IoT gateway (protocol-agnostic FTP/SFTP/MQTT). Designed a 6-model ML ensemble for predictive failure forecasting.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCMINMcNQmoaOW182eOmioFF6D--Uuat5NugBHNelLerScUYMQVPhD81GM45fMIc1EKneiHgyrEoWgsjfiN4FH7cHAZRZv1gqiT1olZgmNRfoZpjJQ_FHYUzUjWI7NspcXyZHyQ1OXYv5hHc8I4uTrhbGzZt_aN1o-kb8I_wGQbuQLsTsIBcggooa5st_JhC76wzCoCHZLPcl6lmFbSNTG78kUZMkwRUpJB0gJVgshgx0XncIVtNOcArQfimd9cehD-EMPvrN0Grg",
   },
   {
@@ -76,6 +78,7 @@ export const caseStudies = [
       { value: "~€2M", label: "Annual Savings" },
     ],
     tags: ["DDD", "Strangler Fig", "AWS Lambda", "Resilience4j"],
+    description: "Reengineered document processing through pipeline parallelization. Authored a full Solution Architecture Document with 8 ADRs, 82 business rules, 37 use cases, and 8 Bounded Contexts using DDD tactical patterns. Planned gradual migration using Strangler Fig Pattern with canary deployments and automatic rollback.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAWY_x0qXruoRuGTNDVvqvZx_RpGbwPXefGv9J6UC3VVXJCoefinns8ZodV4iC10DpL7th9NLVzHdyfatXr6ZXB2M7zHOelyBCyPCpAG8KiL6HzList-ysmyUnzDbt5IyKRQtOJoxzrw9T69b8UgKEEs8SNOdMg-WdiWR9jRMsVjr7--iIPXF32UrLAalXw_grgTRnu-7gdrJbZpD8uccayBomwP3L0DCp1J0iP1YdXUjgOFlg9zs763suvIm2vjxmUf-LPxAuIQ",
   },
   {
@@ -89,6 +92,7 @@ export const caseStudies = [
       { value: "7", label: "Candidate Engine" },
     ],
     tags: ["LangGraph", "OpenAI GPT-4o", "NestJS", "Stripe", "SQS"],
+    description: "Built three production AI pipelines: a two-phase LangGraph agent for reading plans (20-iteration tool-calling loops against Google Books API), a recommendation engine with recency-weighted context (GPT-4o, 7 candidates monthly), and a retrospective generator with 13 structured AI-generated text fields. All async via SQS, premium-gated, multi-language.",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBLN6N8N_9Eu8lmI2JOHZpEhHlxqJkWlLLudcqX05bGldCoNz4fxg1RvFR4u1ETdFVQ_5Xv4TqAXEHsXZLIvEVwXhPyQ89wAhPbsrVgMoWm1u3mbi95zzJcAhpDHutxG-8GnBLwcqPuo4mJ6LM2c0jL7SM7NFHH5gP4rVCJpedFNyD60Vss1bbbsLQSltd637sPRxU1voTSsXrXFWd3NDDDWNgd233_ZPiHuD911UCfiR78HmnWNF9WOiBI-Kjh4svrf_av0wuonA",
   },
 ];
