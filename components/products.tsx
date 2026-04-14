@@ -1,0 +1,21 @@
+import { products } from "@/lib/data";
+
+export function Products() {
+  return (
+    <section className="max-w-7xl mx-auto px-8 mb-48">
+      <h2 className="text-3xl font-bold mb-16">Products I&apos;ve Built, Not Just Deployed</h2>
+      <div className="grid md:grid-cols-3 gap-8">
+        {products.map((product) => (
+          <div key={product.name} className="p-8 bg-surface-container border border-outline-variant/10">
+            <div className="text-2xl font-bold mb-2">{product.name}</div>
+            <div className="mono-label text-primary mb-6">{product.subtitle}</div>
+            <p className="text-on-surface-variant text-sm mb-8">{product.description}</p>
+            <span className="text-primary flex items-center gap-2 font-bold hover:gap-4 transition-all cursor-pointer">
+              Explore <span className="material-symbols-outlined text-sm">arrow_forward</span>
+            </span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
