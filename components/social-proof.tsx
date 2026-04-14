@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-const companies = ["SulAmérica", "Zurich Santander", "Koru", "SOL Copérnico", "EximiaTI"];
+const companies = ["SulAmérica", "Zurich Santander", "Koru", "Resilion", "SOL Copérnico", "PowerOne", "EximiaTI"];
 
 export async function SocialProof() {
   const t = await getTranslations("socialProof");
