@@ -19,21 +19,25 @@ export const services = [
   {
     title: "Architecture Consulting",
     description: "Auditing and designing distributed systems for teams that need to scale 10x without breaking.",
+    tags: ["DDD", "Microservices", "AWS", "Event-Driven"],
     icon: "account_tree",
   },
   {
     title: "Product Engineering",
     description: "Full-stack execution from Figma to production. Modern tech stacks built for speed and maintainability.",
+    tags: ["NestJS", "React", "Next.js", "TypeScript"],
     icon: "deployed_code",
   },
   {
     title: "System Integration",
     description: "Connecting fragmented legacy systems, universal hardware integration, and IoT ecosystems.",
+    tags: ["MQTT", "IoT", "SFTP", "Data Pipelines"],
     icon: "hub",
   },
   {
     title: "Interim CTO",
     description: "Strategic technical leadership, hiring roadmaps, and engineering culture for startups.",
+    tags: ["Leadership", "Mentoring", "Process", "Roadmap"],
     icon: "shield_person",
   },
 ];
