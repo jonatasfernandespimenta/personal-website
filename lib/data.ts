@@ -86,7 +86,7 @@ export const caseStudies = [
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAWY_x0qXruoRuGTNDVvqvZx_RpGbwPXefGv9J6UC3VVXJCoefinns8ZodV4iC10DpL7th9NLVzHdyfatXr6ZXB2M7zHOelyBCyPCpAG8KiL6HzList-ysmyUnzDbt5IyKRQtOJoxzrw9T69b8UgKEEs8SNOdMg-WdiWR9jRMsVjr7--iIPXF32UrLAalXw_grgTRnu-7gdrJbZpD8uccayBomwP3L0DCp1J0iP1YdXUjgOFlg9zs763suvIm2vjxmUf-LPxAuIQ",
   },
   {
-    company: "Livo",
+    company: "Pocket Books",
     tag: "Consumer AI · SaaS",
     year: "2025–2026",
     title: "3 AI Pipelines — Recommendations, Retrospectives & Reading Plans",
@@ -103,7 +103,7 @@ export const caseStudies = [
 
 export const products = [
   {
-    name: "Livo",
+    name: "Pocket Books",
     subtitle: "AI-Powered Reading Platform",
     description: "3 production AI pipelines: LangGraph reading plan agent, GPT-4o book recommendation engine, and retrospective generator (like Spotify Wrapped for readers). NestJS backend, Stripe payments.",
   },
