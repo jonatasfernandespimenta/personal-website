@@ -1,6 +1,63 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-on-secondary-container: #00302b;
+  --color-outline: #859585;
+  --color-primary-fixed: #62ff96;
+  --color-primary: #75ff9e;
+  --color-on-tertiary: #370096;
+  --color-primary-container: #00e676;
+  --color-inverse-on-surface: #2d3137;
+  --color-on-error-container: #ffdad6;
+  --color-primary-fixed-dim: #00e475;
+  --color-secondary-fixed-dim: #66d9cc;
+  --color-on-surface: #dfe2eb;
+  --color-surface-container-low: #181c22;
+  --color-tertiary-fixed: #e8deff;
+  --color-on-surface-variant: #bacbb9;
+  --color-on-primary-container: #00612e;
+  --color-inverse-surface: #dfe2eb;
+  --color-error-container: #93000a;
+  --color-surface-tint: #00e475;
+  --color-inverse-primary: #006d35;
+  --color-secondary-container: #1ea296;
+  --color-surface-variant: #31353c;
+  --color-outline-variant: #3b4a3d;
+  --color-on-error: #690005;
+  --color-error: #ffb4ab;
+  --color-on-primary-fixed: #00210b;
+  --color-on-background: #dfe2eb;
+  --color-surface: #10141a;
+  --color-surface-container-high: #262a31;
+  --color-on-tertiary-fixed: #20005f;
+  --color-surface-container-lowest: #0a0e14;
+  --color-secondary: #66d9cc;
+  --color-surface-bright: #353940;
+  --color-surface-container-highest: #31353c;
+  --color-surface-container: #1c2026;
+  --color-tertiary-container: #cfbfff;
+  --color-on-tertiary-container: #5d21df;
+  --color-on-secondary-fixed-variant: #005049;
+  --color-on-secondary-fixed: #00201d;
+  --color-on-tertiary-fixed-variant: #4f00d0;
+  --color-on-secondary: #003732;
+  --color-tertiary-fixed-dim: #cdbdff;
+  --color-tertiary: #e9dfff;
+  --color-background: #10141a;
+  --color-surface-dim: #10141a;
+  --color-on-primary-fixed-variant: #005226;
+  --color-on-primary: #003918;
+  --color-secondary-fixed: #84f5e8;
+
+  --radius-default: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+
+  --font-headline: "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Berkeley Mono", monospace;
+}
 
 .glass-nav {
   background: rgba(13, 17, 23, 0.6);
