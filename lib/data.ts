@@ -85,6 +85,30 @@ export const caseStudies = [
     tags: ["LangGraph", "OpenAI GPT-4o", "NestJS", "Stripe", "SQS"],
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBLN6N8N_9Eu8lmI2JOHZpEhHlxqJkWlLLudcqX05bGldCoNz4fxg1RvFR4u1ETdFVQ_5Xv4TqAXEHsXZLIvEVwXhPyQ89wAhPbsrVgMoWm1u3mbi95zzJcAhpDHutxG-8GnBLwcqPuo4mJ6LM2c0jL7SM7NFHH5gP4rVCJpedFNyD60Vss1bbbsLQSltd637sPRxU1voTSsXrXFWd3NDDDWNgd233_ZPiHuD911UCfiR78HmnWNF9WOiBI-Kjh4svrf_av0wuonA",
   },
+  {
+    key: "solcopernico",
+    company: "SOL Copérnico",
+    year: "2021–2024",
+    metrics: [
+      { value: "60%", labelKey: "manualReduction" },
+      { value: "20%", labelKey: "awsCostReduction" },
+      { value: "5+", labelKey: "systemsDelivered" },
+    ],
+    tags: ["NestJS", "Next.js", "React Native", "AWS Fargate", "SAP", "Salesforce"],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAWY_x0qXruoRuGTNDVvqvZx_RpGbwPXefGv9J6UC3VVXJCoefinns8ZodV4iC10DpL7th9NLVzHdyfatXr6ZXB2M7zHOelyBCyPCpAG8KiL6HzList-ysmyUnzDbt5IyKRQtOJoxzrw9T69b8UgKEEs8SNOdMg-WdiWR9jRMsVjr7--iIPXF32UrLAalXw_grgTRnu-7gdrJbZpD8uccayBomwP3L0DCp1J0iP1YdXUjgOFlg9zs763suvIm2vjxmUf-LPxAuIQ",
+  },
+  {
+    key: "quadroo",
+    company: "Quadroo",
+    year: "2020–2021",
+    metrics: [
+      { value: "E2E", labelKey: "fullProduct" },
+      { value: "3+", labelKey: "integrations" },
+      { value: "AWS", labelKey: "infrastructure" },
+    ],
+    tags: ["Node.js", "React", "PostgreSQL", "AWS", "Payment Gateway", "Correios API"],
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBRp7ppFPve3advuRwZm1CnaPXWOWW2nOtq-qsO4evRR5t3SWwcHgNi0PC-N1hpz8vDIwcDlHDr3O_ZIp9SZB6nR47y25yYbS2raGb6ibFtWYhyMTDSxMpzT8dizMMHFpccZsikoGAbmiri7u0-W0VF3hG76qbjliULuZPbySZ24lu4evDKv31Z9vxsrFfEtn0Om1aBYrLYCQmcn65tAATDyjnrSQGn-fyFKMKPkpDB2ADrqj3K4W5YRLsUsaJG9vWm-kt2ABxUSw",
+  },
 ];
 
 export const products = [

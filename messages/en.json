@@ -90,6 +90,22 @@
       "aiSystems": "AI Systems",
       "agentIterations": "Agent Iterations",
       "candidateEngine": "Candidate Engine"
+    },
+    "solcopernico": {
+      "tag": "Solar Energy · Enterprise",
+      "title": "Integration Hub + AWS Optimization — 60% Less Manual Work, 20% Cost Reduction",
+      "description": "Built an Integration Hub connecting sales platform orders with SAP, reducing manual work by 60% in the first phase. Implemented a new tech stack (NestJS, Next.js, React Native, Fargate). Structured the company's microservices architecture — defined when to use microservices, which services should stay monolithic, and migrated some microservices back to monoliths. Achieved a 20% cost reduction on AWS. Also built a subscription system, invoice app, automated bill extraction bot, and the Generator System for assembling solar panel kits.",
+      "manualReduction": "Manual Reduction",
+      "awsCostReduction": "AWS Cost Reduction",
+      "systemsDelivered": "Systems Delivered"
+    },
+    "quadroo": {
+      "tag": "E-commerce · Startup",
+      "title": "Custom Frame E-commerce — Full Product from Database to Deploy",
+      "description": "Built the full Quadroo platform from scratch — an app where customers purchase custom frames with personalized photo styles. Handled database modeling, API development, payment gateway integration, Brazilian postal service (Correios) integration, AWS deployment, and the company's inventory management system.",
+      "fullProduct": "Full Product",
+      "integrations": "Integrations",
+      "infrastructure": "Infrastructure"
     }
   },
   "engineering": {

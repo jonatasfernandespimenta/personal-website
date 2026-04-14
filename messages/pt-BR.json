@@ -90,6 +90,22 @@
       "aiSystems": "Sistemas de IA",
       "agentIterations": "Iterações do Agente",
       "candidateEngine": "Motor de Candidatos"
+    },
+    "solcopernico": {
+      "tag": "Energia Solar · Enterprise",
+      "title": "Hub de Integração + Otimização AWS — 60% Menos Trabalho Manual, 20% Redução de Custo",
+      "description": "Construí um Hub de Integração conectando pedidos da plataforma de vendas com SAP, reduzindo trabalho manual em 60% na primeira fase. Implementei uma nova stack (NestJS, Next.js, React Native, Fargate). Estruturei a arquitetura de microsserviços da empresa — defini quando usar microsserviços, quais serviços deveriam permanecer monolíticos, e migrei alguns microsserviços de volta para monolitos. Alcancei 20% de redução de custo na AWS. Também construí sistema de assinaturas, app de consulta de faturas, bot de extração automática de contas, e o Sistema Gerador para montagem de kits de painéis solares.",
+      "manualReduction": "Redução Manual",
+      "awsCostReduction": "Redução AWS",
+      "systemsDelivered": "Sistemas Entregues"
+    },
+    "quadroo": {
+      "tag": "E-commerce · Startup",
+      "title": "E-commerce de Quadros Personalizados — Produto Completo do Banco de Dados ao Deploy",
+      "description": "Construí toda a plataforma Quadroo do zero — um app onde clientes compram quadros personalizados com estilos de foto customizados. Cuidei da modelagem de banco, desenvolvimento da API, integração com gateways de pagamento, integração com APIs dos Correios, deploy na AWS e sistema de controle de estoque da empresa.",
+      "fullProduct": "Produto Completo",
+      "integrations": "Integrações",
+      "infrastructure": "Infraestrutura"
     }
   },
   "engineering": {
