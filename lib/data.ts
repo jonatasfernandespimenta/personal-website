@@ -1,10 +1,10 @@
 export const stats = [
-  { value: "6+", label: "Years Exp" },
-  { value: "50+", label: "Systems" },
-  { value: "5+", label: "AI Systems" },
-  { value: "2", label: "Products" },
-  { value: "20%", label: "AWS Reduction" },
-  { value: "6", label: "ML Models" },
+  { value: "6+", label: "yearsExp" },
+  { value: "50+", label: "systems" },
+  { value: "5+", label: "aiSystems" },
+  { value: "2", label: "products" },
+  { value: "20%", label: "awsReduction" },
+  { value: "6", label: "mlModels" },
 ];
 
 export const services = [

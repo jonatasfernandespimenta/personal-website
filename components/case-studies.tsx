@@ -1,11 +1,14 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 import { caseStudies } from "@/lib/data";
 
-export function CaseStudies() {
+export async function CaseStudies() {
+  const t = await getTranslations("caseStudies");
+
   return (
     <section className="max-w-7xl mx-auto px-8 mb-48" id="work">
-      <h2 className="text-3xl font-bold mb-4">Proven Results. Across Industries. At Scale.</h2>
-      <p className="text-on-surface-variant mb-16 max-w-xl">A selection of enterprise projects and strategic technical interventions.</p>
+      <h2 className="text-3xl font-bold mb-4">{t("heading")}</h2>
+      <p className="text-on-surface-variant mb-16 max-w-xl">{t("subheading")}</p>
       <div className="grid md:grid-cols-2 gap-12">
         {caseStudies.map((study) => (
           <div key={study.company} className="flex flex-col">

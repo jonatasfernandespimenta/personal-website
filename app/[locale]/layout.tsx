@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
 import "./globals.css";
 
 const inter = Inter({
@@ -13,13 +17,26 @@ export const metadata: Metadata = {
     "Senior Full-Stack Engineer & AI Architect. I help CTOs and technical founders design distributed systems and build production AI features.",
 };
 
-export default function RootLayout({
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default async function LocaleLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  setRequestLocale(locale);
+  const messages = await getMessages();
+
   return (
-    <html className="dark" lang="en">
+    <html className="dark" lang={locale}>
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Berkeley+Mono&display=swap"
@@ -33,7 +50,9 @@ export default function RootLayout({
       <body
         className={`${inter.variable} font-body bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container antialiased`}
       >
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -1,14 +1,15 @@
+import { getTranslations } from "next-intl/server";
 import { getMediumArticles } from "@/lib/medium";
 
 export async function Articles() {
+  const t = await getTranslations("articles");
   const articles = await getMediumArticles();
 
   return (
     <section className="max-w-7xl mx-auto px-8 mb-48" id="writing">
-      <h2 className="text-3xl font-bold mb-4">I Share What I Learn</h2>
+      <h2 className="text-3xl font-bold mb-4">{t("heading")}</h2>
       <p className="text-on-surface-variant mb-12 max-w-xl">
-        Published writing on architecture, distributed systems, and engineering
-        leadership.
+        {t("subheading")}
       </p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {articles.map((article) => {

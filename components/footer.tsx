@@ -1,16 +1,20 @@
+import { getTranslations } from "next-intl/server";
+
 const socialLinks = {
   github: "https://github.com/jonatasfernandespimenta",
   linkedin: "https://www.linkedin.com/in/j%C3%B4natas-fernandes-pimenta-67069b199/",
   medium: "https://medium.com/@jonatasfernandespimenta",
 };
 
-export function Footer() {
+export async function Footer() {
+  const t = await getTranslations("footer");
+
   return (
     <footer className="w-full py-12 border-t border-[#3b4a3d]/15 bg-[#10141a]">
       <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 gap-6">
         <div className="font-label text-lg font-bold text-slate-100">JFP</div>
         <div className="font-label text-[10px] uppercase tracking-widest text-slate-500">
-          © 2026 Jônatas Fernandes Pimenta. All rights reserved.
+          {t("copyright")}
         </div>
         <div className="flex gap-8">
           {Object.entries(socialLinks).map(([name, url]) => (

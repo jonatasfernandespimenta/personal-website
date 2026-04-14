@@ -1,10 +1,14 @@
-export function Engineering() {
+import { getTranslations } from "next-intl/server";
+
+export async function Engineering() {
+  const t = await getTranslations("engineering");
+
   return (
     <section className="bg-surface-container-low py-32 mb-48">
       <div className="max-w-7xl mx-auto px-8">
-        <h2 className="text-3xl font-bold mb-8">Engineering Philosophy</h2>
+        <h2 className="text-3xl font-bold mb-8">{t("heading")}</h2>
         <p className="text-on-surface-variant text-lg leading-relaxed max-w-3xl mb-16">
-          I don&apos;t pick architectures because they&apos;re trendy. I pick them because they solve the problem. DDD with bounded contexts when the domain is complex. Event-driven when you need decoupling. LangGraph agents when the AI needs real tool access and state management — not a wrapper around ChatGPT. The same rigor I bring to distributed systems, I bring to AI systems: structured outputs, proper error handling, real data validation, async processing. The right solution matches your constraints, not the hype cycle.
+          {t("description")}
         </p>
         <div className="grid md:grid-cols-2 gap-8 font-label text-xs">
           <div className="bg-surface-container-lowest p-6 border border-outline-variant/20 rounded shadow-2xl">

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { services } from "@/lib/data";
 
 function ServiceCard({
@@ -9,11 +10,13 @@ function ServiceCard({
   isExpanded,
   onExpand,
   onCollapse,
+  mostRequestedLabel,
 }: {
   service: (typeof services)[number];
   isExpanded: boolean;
   onExpand: () => void;
   onCollapse: () => void;
+  mostRequestedLabel: string;
 }) {
   return (
     <motion.div
@@ -58,7 +61,7 @@ function ServiceCard({
               exit={{ opacity: 0, y: -8 }}
               transition={{ duration: 0.25 }}
             >
-              Most Requested
+              {mostRequestedLabel}
             </motion.div>
           )}
         </AnimatePresence>
@@ -129,10 +132,11 @@ function ServiceCard({
 
 export function Services() {
   const [expandedIndex, setExpandedIndex] = useState(0);
+  const t = useTranslations("services");
 
   return (
     <section className="max-w-7xl mx-auto px-8 mb-48" id="services">
-      <h2 className="text-3xl font-bold mb-12">What I Actually Do</h2>
+      <h2 className="text-3xl font-bold mb-12">{t("heading")}</h2>
       <LayoutGroup>
         <motion.div layout className="grid md:grid-cols-12 gap-6">
           {services.map((service, i) => (
@@ -144,6 +148,7 @@ export function Services() {
               onCollapse={() => {
                 if (expandedIndex === i) setExpandedIndex(0);
               }}
+              mostRequestedLabel={t("mostRequested")}
             />
           ))}
         </motion.div>
