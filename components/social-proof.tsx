@@ -11,7 +11,7 @@ export async function SocialProof() {
         <p className="mono-label text-slate-500 mb-8">{t("label")}</p>
         <div className="flex flex-wrap items-center justify-between gap-8 grayscale opacity-60 hover:grayscale-0 transition-all duration-500">
           {companies.map((name, i) => (
-            <span key={name} className={`text-2xl font-bold tracking-tighter ${i === companies.length - 1 ? "text-primary" : ""}`}>
+            <span key={name} className="text-2xl font-bold tracking-tighter hover:text-primary transition-colors duration-300">
               {name}
             </span>
           ))}
