@@ -5,12 +5,6 @@ export async function Hero() {
 
   return (
     <section className="max-w-7xl mx-auto px-8 mb-32 grid-bg">
-      <div className="mb-12">
-        <span className="mono-label px-3 py-1 bg-surface-container-highest border border-outline-variant/30 text-primary flex items-center gap-2 w-fit rounded-full">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          {t("badge")}
-        </span>
-      </div>
       <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight mb-8 max-w-5xl">
         {t("headline1")}
         <br />
