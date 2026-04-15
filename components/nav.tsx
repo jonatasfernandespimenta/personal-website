@@ -4,6 +4,7 @@ import { LocaleSwitcher } from "./locale-switcher";
 const navLinks = [
   { labelKey: "work", href: "#work" },
   { labelKey: "services", href: "#services" },
+  { labelKey: "mentoring", href: "#mentoring" },
   { labelKey: "about", href: "#about" },
   { labelKey: "writing", href: "#writing" },
 ];

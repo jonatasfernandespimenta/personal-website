@@ -11,6 +11,7 @@ import { Engineering } from "@/components/engineering";
 import { Products } from "@/components/products";
 import { Articles } from "@/components/articles";
 import { About } from "@/components/about";
+import { Mentoring } from "@/components/mentoring";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 
@@ -32,6 +33,7 @@ export default async function Home({
         <Services />
         <CaseStudies />
         <Engineering />
+        <Mentoring />
         <Products />
         <Articles />
         <Contact />

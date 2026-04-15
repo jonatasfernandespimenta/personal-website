@@ -2,6 +2,7 @@
   "nav": {
     "work": "Work",
     "services": "Services",
+    "mentoring": "Mentoring",
     "about": "About",
     "writing": "Writing",
     "getInTouch": "Get in Touch"
@@ -11,7 +12,7 @@
     "headline1": "Architecture That Scales.",
     "headline2": "AI That Ships.",
     "headline3": "Engineering That Delivers.",
-    "subheadline": "Senior Full-Stack Engineer & AI Architect. I help CTOs and technical founders design distributed systems, build production AI features — LangGraph agents, RAG pipelines, ML ensembles — and ship products that compound. 6+ years at enterprise scale, from microservices to multi-agent AI.",
+    "subheadline": "Senior Full-Stack Engineer & AI Architect. I help companies design distributed systems, build production AI features, and ship products that compound — and I mentor developers who want to level up their careers in architecture and AI. 6+ years at enterprise scale.",
     "cta1": "Schedule a Strategy Call",
     "cta2": "See My Work"
   },
@@ -144,19 +145,44 @@
       "description": "A reusable Python framework for building ASCII-based terminal games. Handles rendering, input, game loops, and UI components. Extracted from CmdMMO as a standalone engine for anyone to build terminal-based games."
     }
   },
+  "mentoring": {
+    "label": "For Individuals",
+    "heading": "Mentoring & Career Coaching",
+    "description": "Not everything I do is for companies. I also work 1-on-1 with developers who want to grow faster — whether that's landing a senior role, transitioning into architecture, or breaking into AI engineering.",
+    "career": {
+      "title": "Career Acceleration",
+      "description": "Strategic guidance to get unstuck and reach the next level. We work on positioning, interview prep, salary negotiation, and building a career path that actually matches your goals.",
+      "topics": ["Junior → Senior", "Interview Prep", "Salary Negotiation", "Career Strategy", "Portfolio Review"]
+    },
+    "technical": {
+      "title": "Technical Mentoring",
+      "description": "Deep-dive sessions on system design, architecture patterns, and production-grade engineering. I help you think like a senior engineer — not just write code, but make decisions.",
+      "topics": ["System Design", "DDD", "Microservices", "Clean Architecture", "Code Review"]
+    },
+    "aiCareer": {
+      "title": "AI & ML for Engineers",
+      "description": "Practical guidance for developers who want to add AI to their skillset. From building your first LangGraph agent to shipping RAG pipelines — real projects, not tutorials.",
+      "topics": ["LangGraph", "RAG Pipelines", "LLM Integration", "AI Agents", "ML Fundamentals"]
+    },
+    "cta": {
+      "heading": "Ready to Level Up?",
+      "description": "Book a free intro call. We'll talk about where you are, where you want to go, and whether I can help.",
+      "button": "Book a Free Intro Call"
+    }
+  },
   "articles": {
     "heading": "I Share What I Learn",
     "subheading": "Published writing on architecture, distributed systems, and engineering leadership."
   },
   "about": {
     "heading": "The Short Version",
-    "p1": "I started coding at 12 with RPG Maker and building neural networks by 17. That curiosity turned into a career spanning enterprise architecture, AI engineering, and product development — building CxMapper for SulAmérica and Caixa Seguradora, contributing to an IoT intelligence platform with AI copilot at Koru, and reducing a 12-month document workflow to 2 months at Zurich Santander.",
+    "p1": "I started coding at 12 with RPG Maker and building neural networks by 17. That curiosity turned into a career spanning enterprise architecture, AI engineering, and product development — building mass communication platforms for companies like SulAmérica and Caixa Seguradora, an IoT intelligence platform with AI copilot at Koru, and reducing a 12-month document workflow to 2 months at Zurich Santander.",
     "p2": "Today I work with companies of all sizes — from startups to enterprises — who need someone to architect scalable systems, ship real features, and unblock their engineering teams. I also build my own products: Pocket Books (a reading platform with AI features), Cronock (a B2B2C booking SaaS), and ClaudIA (an open-source multi-agent assistant). The best engineers understand what it means to own something end-to-end.",
     "credentials": "MBA in Software Architecture (2025) · MBA in AI Engineering (2026) · Portuguese (native) · English (fluent)"
   },
   "contact": {
-    "heading": "Let's Talk About Your Project",
-    "description": "I'm currently accepting new high-impact projects for 2026. Briefly describe your challenge and let's see if we're a fit.",
+    "heading": "Let's Talk",
+    "description": "Whether you need an engineer for a high-impact project or a mentor to accelerate your career — I'd love to hear from you. Briefly describe what you're looking for and let's see if we're a fit.",
     "cta": "Send Inquiry"
   },
   "footer": {
